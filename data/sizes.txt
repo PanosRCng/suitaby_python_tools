@@ -1,0 +1,925 @@
+#size_type	size	label	brand	url	clothe_category	size_category
+WAIST	68.5-70	28	LEVIS	http://www.levi.com	Mens Bottoms	-
+WAIST	70-72.5	29	LEVIS	http://www.levi.com	Mens Bottoms	-
+WAIST	72.5-75	30	LEVIS	http://www.levi.com	Mens Bottoms	-
+WAIST	75-77.5	31	LEVIS	http://www.levi.com	Mens Bottoms	-
+WAIST	77.5-80	32	LEVIS	http://www.levi.com	Mens Bottoms	-
+SEAT	86.5-89	28	LEVIS	http://www.levi.com	Mens Bottoms	-
+SEAT	89-91.5	29	LEVIS	http://www.levi.com	Mens Bottoms	-
+SEAT	91.5-94	30	LEVIS	http://www.levi.com	Mens Bottoms	-
+SEAT	94-96.5	31	LEVIS	http://www.levi.com	Mens Bottoms	-
+SEAT	96.5-99	32	LEVIS	http://www.levi.com	Mens Bottoms	-
+THIGH	52.25-53.5	28	LEVIS	http://www.levi.com	Mens Bottoms	-
+THIGH	53.5-54.75	29	LEVIS	http://www.levi.com	Mens Bottoms	-
+THIGH	54.75-56	30	LEVIS	http://www.levi.com	Mens Bottoms	-
+THIGH	56-57.25	31	LEVIS	http://www.levi.com	Mens Bottoms	-
+THIGH	57.25-58.5	32	LEVIS	http://www.levi.com	Mens Bottoms	-
+INSIDE LEG	69.5-74.5	30	LEVIS	http://www.levi.com	Mens Bottoms	-
+INSIDE LEG	74.5-79.5 	32	LEVIS	http://www.levi.com	Mens Bottoms	-
+CHEST	91-95	S	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	96-100	M	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	101-106	L	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	107-111	XL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	112-117	XXL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	118-125	1XL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	126-132	2XL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	133-140	3XL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	141-147	4XL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	148-155	5XL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	156-163	6XL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	164-170	7XL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	171-178	8XL	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
+CHEST	106-112	L/T	D555	http://www.dukeclothing.com/sizefitguide	Shirts	TALL SIZES (SUITABLE FOR MEN OVER 2 M)
+CHEST	113-119	XL/T	D555	http://www.dukeclothing.com/sizefitguide	Shirts	TALL SIZES (SUITABLE FOR MEN OVER 2 M)
+CHEST	120-126	XXL/T	D555	http://www.dukeclothing.com/sizefitguide	Shirts	TALL SIZES (SUITABLE FOR MEN OVER 2 M)
+CHEST	127-134	XXXL/T	D555	http://www.dukeclothing.com/sizefitguide	Shirts	TALL SIZES (SUITABLE FOR MEN OVER 2 M)
+CHEST	91-95	S	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	96-100	L	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	101-106	L	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	107-111	XL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	112-117	XXL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	118-125	1XL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	126-132	2XL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	133-140	3XL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	141-147	4XL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	148-155	5XL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	156-163	6XL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	164-170	7XL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	171-178	8XL	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	REGULAR & KING SIZE
+CHEST	106-112	L/T	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	TALL (SUITABLE FOR MEN OVER 2M)
+CHEST	113-119	XL/T	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	TALL (SUITABLE FOR MEN OVER 2M)
+CHEST	120-126	XXL/T	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	TALL (SUITABLE FOR MEN OVER 2M)
+CHEST	127-134	XXXL/T	D555	http://www.dukeclothing.com/sizefitguide	T-SHIRTS & POLO	TALL (SUITABLE FOR MEN OVER 2M)
+CHEST	91-95	S	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	96-100	M	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	101-106	L	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	107-111	XL	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	112-117	XXL	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	115-120	1XL	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	120-127	2XL	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	128-135	3XL	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	136-143	4XL	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	144-152	5XL	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+CHEST	153-160	6XL	D555	http://www.dukeclothing.com/sizefitguide	KNITWEAR	-
+WAIST	71	28	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	76	30	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	81	32	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	86	34	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	91	36	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	101	40	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	106	42	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	111	44	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	116	46	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	122	48	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	127	50	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	132	52	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	137	54	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	142	56	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	147	58	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	152	60	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	157	62	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	162	64	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	167	66	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	173	68	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+WAIST	178	70	D555	http://www.dukeclothing.com/sizefitguide	JEANS	REGULAR & KING SIZES
+INSIDE LEG	68	XTRA SHORT	D555	http://www.dukeclothing.com/sizefitguide	JEANS	-
+INSIDE LEG	74-76	SHORT	D555	http://www.dukeclothing.com/sizefitguide	JEANS	-
+INSIDE LEG	79-81	REGULAR	D555	http://www.dukeclothing.com/sizefitguide	JEANS	-
+INSIDE LEG	84-87	LONG	D555	http://www.dukeclothing.com/sizefitguide	JEANS	-
+INSIDE LEG	97	TALL	D555	http://www.dukeclothing.com/sizefitguide	JEANS	-
+WAIST	71	28	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	76	30	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	81	34	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	86	28	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	91	36	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	101	40	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	106	42	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	111	44	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	116	46	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	122	48	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	127	50	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	132	52	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	137	54	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	142	56	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	147	58	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	152	60	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	157	62	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	162	64	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	167	66	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	173	68	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	178	70	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+INSIDE LEG	68	XTRA SHORT	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+INSIDE LEG	74-76	SHORT	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+INSIDE LEG	79-81	REGULAR	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+INSIDE LEG	84-87	LONG	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+INSIDE LEG	97	TALL	D555	http://www.dukeclothing.com/sizefitguide	TROUSERS	REGULAR & KING SIZES
+WAIST	76-80	S	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	81-85	M	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	86-90	L	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	91-95	XL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	96-100	XXL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	101-105	1XL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	106-114	2XL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	115-124	3XL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	125-134	4XL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	135-144	5XL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	145-154	6XL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	155-164	7XL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	165-174	8XL	D555	http://www.dukeclothing.com/sizefitguide	SHORTS	REGULAR & KING SIZES
+WAIST	76-80	S	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	81-85	M	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	86-90	L	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	91-95	XL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	96-100	XXL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	101-105	1XL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	106-114	2XL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	115-124	3XL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	125-134	4XL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	135-144	5XL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	145-154	6XL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	155-164	7XL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	165-174	8XL	D555	http://www.dukeclothing.com/sizefitguide	ELASTICATED WAIST TROUSERS	REGULAR & KING SIZES
+WAIST	81	32	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	86	34	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	91	36	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	96	38	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	101	40	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	106	42	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	112	44	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	117-122	48	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	127-132	52	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	137-142	56	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	147-152	60	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+WAIST	157-163	64	D555	http://www.dukeclothing.com/sizefitguide	BELTS	REGULAR & KING SIZES
+CHEST	91-96	S	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	SHIRTS TEES JACKETS TOPS	-
+CHEST	99-105	M	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	SHIRTS TEES JACKETS TOPS	-
+CHEST	107-112	L	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	SHIRTS TEES JACKETS TOPS	-
+CHEST	114-119	XL	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	SHIRTS TEES JACKETS TOPS	-
+CHEST	122-127	XXL	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	SHIRTS TEES JACKETS TOPS	-
+WAIST	76	S	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	TROUSERS SHORTS	-
+WAIST	81	M	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	TROUSERS SHORTS	-
+WAIST	86	L	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	TROUSERS SHORTS	-
+WAIST	91	XL	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	TROUSERS SHORTS	-
+WAIST	96	XXL	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	TROUSERS SHORTS	-
+INSIDE LEG	76	SHORT	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	TROUSERS SHORTS	-
+INSIDE LEG	81	REGULAR	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	TROUSERS SHORTS	-
+INSIDE LEG	86	LONG	JOE BROWNS	http://www.joebrowns.co.uk/pu+size+size+1	TROUSERS SHORTS	-
+CHEST	92	90	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+CHEST	96	94	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+CHEST	100	98	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+CHEST	104	102	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+CHEST	108	106	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+CHEST	112	110	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+CHEST	116	114	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+WAIST	80	90	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+WAIST	84	94	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+WAIST	88	98	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+WAIST	92	102	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+WAIST	96	106	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+WAIST	100	110	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+WAIST	104	114	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIP	95	90	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIP	99	94	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIP	103	98	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIP	107	102	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIP	111	106	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIP	115	110	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIP	119	114	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+SLEEVE	86	90	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+SLEEVE	88	94	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+SLEEVE	90	98	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+SLEEVE	91.8	102	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+SLEEVE	93.3	106	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+SLEEVE	94.8	110	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+SLEEVE	96.3	114	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+CHEST	116.8-121.9	BIG1X	POLO	-	APPAREL	BIG&TALL
+CHEST	127-132.1	BIG2X	POLO	-	APPAREL	BIG&TALL
+SLEEVE	87.6	BIG1X	POLO	-	APPAREL	BIG&TALL
+SLEEVE	88.90	BIG2X	POLO	-	APPAREL	BIG&TALL
+CHEST	106.7-111.8	TALL L	POLO	-	APPAREL	BIG&TALL
+CHEST	116.8-121.9	TALL XL	POLO	-	APPAREL	BIG&TALL
+SLEEVE	92.7	TALL L	POLO	-	APPAREL	BIG&TALL
+SLEEVE	94	TALL XL	POLO	-	APPAREL	BIG&TALL
+CHEST	122-127	XL	ITALIAN CLASSICS	http://www.highandmighty.co.uk/shop/italian-classics-tall-rib-velvet-blazer/ef636/product/details/show.action?pdBoUid=9309#colour:Black,size:	SHIRTS	-
+CHEST	132-137	2XL	ITALIAN CLASSICS	http://www.highandmighty.co.uk/shop/italian-classics-tall-rib-velvet-blazer/ef636/product/details/show.action?pdBoUid=9309#colour:Black,size:	SHIRTS	-
+WAIST	116.8-121.9	XL	ITALIAN CLASSICS	http://www.highandmighty.co.uk/shop/italian-classics-tall-rib-velvet-blazer/ef636/product/details/show.action?pdBoUid=9309#colour:Black,size:	TRACK PANTS	-
+WAIST	127-132.1	2XL	ITALIAN CLASSICS	http://www.highandmighty.co.uk/shop/italian-classics-tall-rib-velvet-blazer/ef636/product/details/show.action?pdBoUid=9309#colour:Black,size:	TRACK PANTS	-
+CHEST	128	XL	WIERD FISH	http://www.weirdfish.co.uk/Menswear/Mens-Macaroni/Beacon-Full-Zip-Hoody-Macaroni-Sweatshirt-14SM055.aspx?c=Ecru	SHIRTS	-
+CHEST	134	2XL	WIERD FISH	http://www.weirdfish.co.uk/Menswear/Mens-Macaroni/Beacon-Full-Zip-Hoody-Macaroni-Sweatshirt-14SM055.aspx?c=Ecru	SHIRTS	-
+WAIST	100	38	WIERD FISH	http://www.weirdfish.co.uk/Menswear/Men-trousers-jeans/Blanco-Ringspun-Denim-Jean13SM054R.aspx?c=Mid%20Wash	TROUSERS JEANS	-
+WAIST	105	40	WIERD FISH	http://www.weirdfish.co.uk/Menswear/Men-trousers-jeans/Blanco-Ringspun-Denim-Jean13SM054R.aspx?c=Mid%20Wash	TROUSERS JEANS	-
+INSIDE LEG	81	38	WIERD FISH	http://www.weirdfish.co.uk/Menswear/Men-trousers-jeans/Blanco-Ringspun-Denim-Jean13SM054R.aspx?c=Mid%20Wash	TROUSERS JEANS	-
+INSIDE LEG	81	40	WIERD FISH	http://www.weirdfish.co.uk/Menswear/Men-trousers-jeans/Blanco-Ringspun-Denim-Jean13SM054R.aspx?c=Mid%20Wash	TROUSERS JEANS	-
+CHEST	114.3-121.9	XL	CHATHAM	http://www.chatham.co.uk/men/clothing/gig-pink	SHIRTS	-
+CHEST	124.5	XXL	CHATHAM	http://www.chatham.co.uk/men/clothing/gig-pink	SHIRTS	-
+CHEST	96-99	S	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM TOPS	HILFIGER DENIM
+CHEST	100-103	M	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM TOPS	HILFIGER DENIM
+CHEST	104-107	L	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM TOPS	HILFIGER DENIM
+CHEST	108-111	XL	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM TOPS	HILFIGER DENIM
+CHEST	112-115	XXL	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM TOPS	HILFIGER DENIM
+WAIST	81-84	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+WAIST	84-86	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+WAIST	86-89	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+WAIST	89-91	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+WAIST	91-95	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+WAIST	96-101	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+WAIST	102-104	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+HIPS	102-104	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+HIPS	104-107	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+HIPS	107-109	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+HIPS	112-116	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+HIPS	117-120	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+HIPS	121-125	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+THIGH	61-62	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+THIGH	62-63	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+THIGH	63-65	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+THIGH	65-66	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+THIGH	66-67	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+THIGH	68-71	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+THIGH	71-72	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	HILFIGER DENIM JEANS	HILFIGER DENIM
+CHEST	94-98	S	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR TOPS	-
+CHEST	99-103	M	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR TOPS	-
+CHEST	104-108	L	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR TOPS	-
+CHEST	109-113	XL	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR TOPS	-
+CHEST	114-118	XXL	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR TOPS	-
+WAIST	77.5-80	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+WAIST	80-82.5	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+WAIST	82.5-85	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+WAIST	85-87.5	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+WAIST	87.5-92	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+WAIST	92-97	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+WAIST	97-102	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+HIPS	87.5-91	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+HIPS	91-93.5	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+HIPS	93.5-96	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+HIPS	96-98.5	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+HIPS	98.5-103	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+HIPS	103-108	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+HIPS	108-113	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	81	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
+INSIDE LEG	81	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
+INSIDE LEG	81	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
+INSIDE LEG	81	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
+INSIDE LEG	81	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
+INSIDE LEG	81	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
+INSIDE LEG	81	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
+INSIDE LEG	86	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
+INSIDE LEG	86	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
+INSIDE LEG	86	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
+INSIDE LEG	86	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
+INSIDE LEG	86	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
+INSIDE LEG	86	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
+INSIDE LEG	86	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
+INSIDE LEG	91	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
+INSIDE LEG	91	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
+INSIDE LEG	91	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
+INSIDE LEG	91	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
+INSIDE LEG	91	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
+INSIDE LEG	91	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
+INSIDE LEG	91	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
+WAIST	83-86	48	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+WAIST	87-90	50	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+WAIST	91-94	52	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+WAIST	95-98	54	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+WAIST	99-102	56	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+INSIDE LEG	82	48	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+INSIDE LEG	83	50	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+INSIDE LEG	84	52	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+INSIDE LEG	85	54	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+INSIDE LEG	86	56	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+SLEEVE LENGTH	63-65	48	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+SLEEVE LENGTH	65-67	50	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+SLEEVE LENGTH	67-68	52	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+SLEEVE LENGTH	68-69	54	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+SLEEVE LENGTH	69-70	56	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
+WAIST	83-86	94	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+WAIST	87-90	98	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+WAIST	91-94	102	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+WAIST	95-98	104	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+WAIST	99-102	106	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+INSIDE LEG	82	94	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+INSIDE LEG	83	98	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+INSIDE LEG	84	102	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+INSIDE LEG	85	104	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+INSIDE LEG	86	106	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+SLEEVE LENGTH	63-65	94	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+SLEEVE LENGTH	65-67	98	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+SLEEVE LENGTH	67-68	102	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+SLEEVE LENGTH	68-69	104	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+SLEEVE LENGTH	69-70	106	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	LONG LENGTH
+NECK	39	39	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SHIRTS	-
+NECK	40	40	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SHIRTS	-
+NECK	41	41	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SHIRTS	-
+NECK	42	42	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SHIRTS	-
+NECK	43	43	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SHIRTS	-
+NECK	44	44	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SHIRTS	-
+CHEST	126-131	XXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+CHEST	132-137	XXXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+CHEST	138-143	XXXXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+CHEST	144-150	XXXXXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+NECK	46.5	XXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+NECK	48	XXXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+NECK	49.5	XXXXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+NECK	51	XXXXXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+SLEEVE LENGTH	98.5	XXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+SLEEVE LENGTH	100	XXXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+SLEEVE LENGTH	101.5	XXXXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+SLEEVE LENGTH	103	XXXXXL T	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	TOPS	BIG&TALL
+WAIST	102	40	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+WAIST	108	42	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+WAIST	114	44	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+WAIST	120	46	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+WAIST	126	48	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+WAIST	132	50	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	81	40	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	81	42	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	81	44	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	81	46	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	81	48	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	81	50	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	86	40	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	86	42	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	86	44	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	86	46	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	86	48	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	86	50	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	91	40	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	91	42	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	91	44	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	91	46	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	91	48	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+INSIDE LEG	91	50	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	JEANS	BIG&TALL
+WAIST	81-85	S	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+WAIST	86-90	M	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+WAIST	91-95	L	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+WAIST	96-100	XL	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+WAIST	101-105	XXL	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+HIPS	95-98	S	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+HIPS	99-102	M	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+HIPS	103-106	L	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+HIPS	107-110	XL	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+HIPS	111-114	XXL	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	UNDERWEAR	-
+FOOT LENGTH	24.4-25	39	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SHOES	-
+FOOT LENGTH	25.1-25.7	40	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SHOES	-
+FOOT LENGTH	25.8-26.4	41	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SHOES	-
+FOOT LENGTH	26.5-27	42	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SHOES	-
+FOOT LENGTH	27.1-27.7	43	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SHOES	-
+FOOT LENGTH	27.8-28.4	44	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SHOES	-
+FOOT LENGTH	28.5-29	45	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SHOES	-
+FOOT LENGTH	29.1-29.7	46	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SHOES	-
+FOOT LENGTH	24.4-27	39/42	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SOCKS	-
+FOOT LENGTH	27.1-29.7	43/46	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D3%26size%3DS	SOCKS	-
+CHEST	86-91	S	MAGEE1866	http://www.magee1866.com/mens-size-guide-i57	CASUAL SHIRTS	-
+CHEST	96-101	M	MAGEE1866	http://www.magee1866.com/mens-size-guide-i57	CASUAL SHIRTS	-
+CHEST	106-112	L	MAGEE1866	http://www.magee1866.com/mens-size-guide-i57	CASUAL SHIRTS	-
+CHEST	116-122	XL	MAGEE1866	http://www.magee1866.com/mens-size-guide-i57	CASUAL SHIRTS	-
+CHEST	127-132	XXL	MAGEE1866	http://www.magee1866.com/mens-size-guide-i57	CASUAL SHIRTS	-
+CHEST	137-142	XXXL	MAGEE1866	http://www.magee1866.com/mens-size-guide-i57	CASUAL SHIRTS	-
+WAIST	81	46	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+WAIST	85	48	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+WAIST	89	50	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+WAIST	93	52	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+WAIST	97	54	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+WAIST	103	56	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+WAIST	109	58	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+WAIST	115	60	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+INSIDE LEG	80	46	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+INSIDE LEG	82	48	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+INSIDE LEG	84	50	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+INSIDE LEG	86	52	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+INSIDE LEG	86	54	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+INSIDE LEG	87	56	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+INSIDE LEG	87	58	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+INSIDE LEG	88	60	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	REGULAR SIZES
+WAIST	85	23	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+WAIST	89	24	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+WAIST	93	25	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+WAIST	97	26	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+WAIST	101	27	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+WAIST	107	28	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+WAIST	113	29	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+WAIST	119	30	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+WAIST	125	31	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+INSIDE LEG	76	23	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+INSIDE LEG	78	24	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+INSIDE LEG	80	25	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+INSIDE LEG	81	26	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+INSIDE LEG	82	27	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+INSIDE LEG	82	28	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+INSIDE LEG	83	29	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+INSIDE LEG	83	30	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+INSIDE LEG	84	31	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	STOCKY SIZES
+WAIST	79	90	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+WAIST	83	94	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+WAIST	87	98	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+WAIST	91	102	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+WAIST	95	106	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+WAIST	101	110	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+WAIST	107	114	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+INSIDE LEG	85	90	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+INSIDE LEG	87	94	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+INSIDE LEG	89	98	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+INSIDE LEG	91	102	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+INSIDE LEG	92	106	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+INSIDE LEG	93	110	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+INSIDE LEG	93	114	MEYER	http://www.meyer-hosen.com/en/groessen-berater	TROUSERS	TALL SIZES
+CHEST	96.5	48	HARRIS TWEED	http://harristweedco.co.uk/size_guide	JACKETS	-
+CHEST	101.5	50	HARRIS TWEED	http://harristweedco.co.uk/size_guide	JACKETS	-
+CHEST	106.5	52	HARRIS TWEED	http://harristweedco.co.uk/size_guide	JACKETS	-
+CHEST	111.5	54	HARRIS TWEED	http://harristweedco.co.uk/size_guide	JACKETS	-
+CHEST	117	56	HARRIS TWEED	http://harristweedco.co.uk/size_guide	JACKETS	-
+CHEST	122	58	HARRIS TWEED	http://harristweedco.co.uk/size_guide	JACKETS	-
+CHEST	127	60	HARRIS TWEED	http://harristweedco.co.uk/size_guide	JACKETS	-
+CHEST	86-91	XS	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=2&ProductId=17789&Colour=RED	DRESS & BUSINESS SHIRTS	-
+CHEST	91-96	S	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=2&ProductId=17789&Colour=RED	DRESS & BUSINESS SHIRTS	-
+CHEST	96-101	M	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=2&ProductId=17789&Colour=RED	DRESS & BUSINESS SHIRTS	-
+CHEST	101-106	L	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=2&ProductId=17789&Colour=RED	DRESS & BUSINESS SHIRTS	-
+CHEST	106-111	XL	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=2&ProductId=17789&Colour=RED	DRESS & BUSINESS SHIRTS	-
+CHEST	111-116	XXL	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=2&ProductId=17789&Colour=RED	DRESS & BUSINESS SHIRTS	-
+WAIST	67-71	28	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+WAIST	72-76	30	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+WAIST	77-81	32	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+WAIST	83-86	34	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+WAIST	87-91	36	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+WAIST	92-96	38	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+WAIST	97-101	40	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+WAIST	102-106	42	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+INSIDE LEG	85	28	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+INSIDE LEG	85	30	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+INSIDE LEG	85	32	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+INSIDE LEG	85	34	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+INSIDE LEG	85	36	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+INSIDE LEG	85	38	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+INSIDE LEG	85	40	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+INSIDE LEG	85	42	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=36&ProductId=17900	JEANS	-
+WAIST	74-76	76	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+WAIST	77-80	80	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+WAIST	81-84	84	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+WAIST	85-88	88	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+WAIST	89-92	92	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+WAIST	93-96	96	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+WAIST	97-100	100	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+WAIST	101-104	106	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+INSIDE LEG	85	76	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+INSIDE LEG	85	80	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+INSIDE LEG	85	84	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+INSIDE LEG	85	88	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+INSIDE LEG	85	92	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+INSIDE LEG	85	96	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+INSIDE LEG	85	100	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+INSIDE LEG	85	106	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=7&ProductId=17690&Colour=RED	PANTS, CHINOS & TROUSERS	-
+CHEST	99-103	XS	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=8&ProductId=17637&Colour=NAVY	JACKETS, COATS & BLAZERS	-
+CHEST	104-108	S	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=8&ProductId=17637&Colour=NAVY	JACKETS, COATS & BLAZERS	-
+CHEST	109-113	M	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=8&ProductId=17637&Colour=NAVY	JACKETS, COATS & BLAZERS	-
+CHEST	114-118	L	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=8&ProductId=17637&Colour=NAVY	JACKETS, COATS & BLAZERS	-
+CHEST	119-123	XL	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=8&ProductId=17637&Colour=NAVY	JACKETS, COATS & BLAZERS	-
+CHEST	124-128	XXL	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=8&ProductId=17637&Colour=NAVY	JACKETS, COATS & BLAZERS	-
+CHEST	89-92	92	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=15644&Colour=GREY	SUIT JACKETS	-
+CHEST	92-96	96	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=15644&Colour=GREY	SUIT JACKETS	-
+CHEST	97-100	100	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=15644&Colour=GREY	SUIT JACKETS	-
+CHEST	101-104	104	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=15644&Colour=GREY	SUIT JACKETS	-
+CHEST	105-108	108	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=15644&Colour=GREY	SUIT JACKETS	-
+CHEST	109-112	112	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=15644&Colour=GREY	SUIT JACKETS	-
+CHEST	113-116	116	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=15644&Colour=GREY	SUIT JACKETS	-
+WAIST	74-76	76	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+WAIST	77-80	80	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+WAIST	81-84	84	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+WAIST	85-88	88	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+WAIST	89-92	92	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+WAIST	93-96	96	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+WAIST	97-100	100	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+WAIST	101-104	106	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+INSIDE LEG	83.50	76	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+INSIDE LEG	84.50	80	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+INSIDE LEG	85.50	84	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+INSIDE LEG	86.50	88	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+INSIDE LEG	87.50	92	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+INSIDE LEG	88.50	96	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+INSIDE LEG	89.50	100	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+INSIDE LEG	90.50	106	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=62&ProductId=17687&Colour=BLUE	SUIT PANTS	-
+CHEST	86-91	XS	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=4&ProductId=17731&Colour=BLUE	KNITWEAR, MERINO & CARDIGANS	-
+CHEST	91-96	S	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=4&ProductId=17731&Colour=BLUE	KNITWEAR, MERINO & CARDIGANS	-
+CHEST	96-101	M	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=4&ProductId=17731&Colour=BLUE	KNITWEAR, MERINO & CARDIGANS	-
+CHEST	101-106	L	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=4&ProductId=17731&Colour=BLUE	KNITWEAR, MERINO & CARDIGANS	-
+CHEST	106-111	XL	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=4&ProductId=17731&Colour=BLUE	KNITWEAR, MERINO & CARDIGANS	-
+CHEST	111-116	XXL	BARKERS	http://www.barkersonline.co.nz/ProductDetail.aspx?CategoryId=4&ProductId=17731&Colour=BLUE	KNITWEAR, MERINO & CARDIGANS	-
+CHEST	91.44-96.52	XS	JOHN SMEDLEY	http://www.johnsmedley.com/uk/mens/specials/view-all/ss14-brock-in-charcoal	PULLOVERS, SWEATERS	EASY FIT
+CHEST	96.52-101.6	S	JOHN SMEDLEY	http://www.johnsmedley.com/uk/mens/specials/view-all/ss14-brock-in-charcoal	PULLOVERS, SWEATERS	EASY FIT
+CHEST	101.6-109.2	M	JOHN SMEDLEY	http://www.johnsmedley.com/uk/mens/specials/view-all/ss14-brock-in-charcoal	PULLOVERS, SWEATERS	EASY FIT
+CHEST	109.2-116.8	L	JOHN SMEDLEY	http://www.johnsmedley.com/uk/mens/specials/view-all/ss14-brock-in-charcoal	PULLOVERS, SWEATERS	EASY FIT
+CHEST	116.8-121.9	XL	JOHN SMEDLEY	http://www.johnsmedley.com/uk/mens/specials/view-all/ss14-brock-in-charcoal	PULLOVERS, SWEATERS	EASY FIT
+CHEST	121.9-127	XXL	JOHN SMEDLEY	http://www.johnsmedley.com/uk/mens/specials/view-all/ss14-brock-in-charcoal	PULLOVERS, SWEATERS	EASY FIT
+WAIST	75.5	28	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	78	29	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	80.5	30	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	83	31	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	85.5	32	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	88	33	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	90.5	34	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	95.5	36	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	100.5	38	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	105.5	40	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	77.5	28	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	80	29	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	82.5	30	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	85	31	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	87.5	32	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	90	33	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	92.5	34	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	97.5	36	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	102.5	38	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOW WAIST	107.5	40	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	90.5	28	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	93	29	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	95.5	30	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	98	31	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	100.5	32	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	103	33	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	105.5	34	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	110.5	36	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	115	38	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+HIPS	120.5	40	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+WAIST	76	S	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+WAIST	82	M	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+WAIST	88	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+WAIST	94	XL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+WAIST	100	XXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+WAIST	106	XXXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOW WAIST	78	S	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOW WAIST	84	M	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOW WAIST	90	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOW WAIST	96	XL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOW WAIST	102	XXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOW WAIST	108	XXXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+HIPS	91	S	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+HIPS	97	M	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+HIPS	103	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+HIPS	109	XL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+HIPS	115	XXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+HIPS	121	XXXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+CHEST	88	S	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+CHEST	94	M	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+CHEST	100	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+CHEST	106	XL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+CHEST	112	XXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+CHEST	118	XXXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+WAIST	76	S	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+WAIST	82	M	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+WAIST	88	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+WAIST	94	XL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+WAIST	100	XXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+WAIST	121	XXXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Knitwear/garmentdyed-longsleeve-cotton-sweater-with-enzyme-wash-button-crew-neck-special-effects-on-shoulders-sleeves-2778.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+HIPS	91	S	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+HIPS	97	M	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+HIPS	103	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+HIPS	109	XL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+HIPS	115	XXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+HIPS	121	XXXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	T-SHIRTS, TOPS, FLEECE, SHIRTS, KNITWEAR & JACKETS	-
+CHEST	91.44	46	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+CHEST	96.52	48	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+CHEST	101.6	50	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+CHEST	106.68	52	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+CHEST	111.76	54	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+CHEST	116.84	56	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+CHEST	121.92	58	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+CHEST	127	60	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+CHEST	101.6	98	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	LONG
+CHEST	106.68	102	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	LONG
+CHEST	111.76	106	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	LONG
+SHOULDER WIDTH	43.5	46	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+SHOULDER WIDTH	44.5	48	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+SHOULDER WIDTH	45.5	50	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+SHOULDER WIDTH	46.5	52	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+SHOULDER WIDTH	47.5	54	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+SHOULDER WIDTH	48.5	56	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+SHOULDER WIDTH	49.5	58	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+SHOULDER WIDTH	50.5	60	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+SHOULDER WIDTH	45.5	98	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	LONG
+SHOULDER WIDTH	46.5	102	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	LONG
+SHOULDER WIDTH	47.5	106	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	LONG
+WAIST	91.44	46	GANT	HTTP://WWW.GANT.CO.UK/MENS-CHINOS/CREAM-MAINE-SUPER-CHINO/27847	BLAZERS	REGULAR
+SLEEVE LENGTH	65	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+SLEEVE LENGTH	66	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+SLEEVE LENGTH	67	50	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+SLEEVE LENGTH	68	52	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+SLEEVE LENGTH	69	54	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+SLEEVE LENGTH	70	56	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+SLEEVE LENGTH	71	58	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+SLEEVE LENGTH	72	60	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+SLEEVE LENGTH	70	98	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	LONG
+SLEEVE LENGTH	71	102	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	LONG
+SLEEVE LENGTH	72	106	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	LONG
+BACK LENGTH	70	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+BACK LENGTH	71	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+BACK LENGTH	72	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+BACK LENGTH	73	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+BACK LENGTH	74	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+BACK LENGTH	75	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+BACK LENGTH	76	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+BACK LENGTH	77	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	REGULAR
+BACK LENGTH	74	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	LONG
+BACK LENGTH	75	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	LONG
+BACK LENGTH	76	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	BLAZERS	LONG
+WAIST	74.8	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	77.3	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	79.8	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	82.3	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	84.8	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	87.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	89.8	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	92.3	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	94.8	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	97.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	99.8	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	104.8	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	109.8	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	114.8	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	119.8	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	124.8	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	40.8	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	41.5	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	42.2	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	42.9	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	43.6	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	44.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	45	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	45.7	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	46.4	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	47.1	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	47.8	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	49.2	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	50.6	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	52.0	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	53.4	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+BOTTOM LEG	54.8	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	21.6	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	21.9	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	22.2	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	22.5	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	22.8	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	23.1	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	23.4	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	23.7	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	24	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	24.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	24.6	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	25.2	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	25.8	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	26.4	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	27	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+FRONT RISE	27.6	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+WAIST	83.82	23	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+WAIST	88.9	24	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+WAIST	92.71	25	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+WAIST	96.52	26	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+WAIST	100.33	27	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+WAIST	104.14	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+WAIST	76.2	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+WAIST	80.01	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+WAIST	83.82	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+WAIST	88.9	50	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+WAIST	92.71	52	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+WAIST	96.52	54	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+WAIST	100.33	56	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+WAIST	104.14	58	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+WAIST	107.95	60	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+WAIST	83.82	94	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
+WAIST	88.9	98	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
+WAIST	92.71	102	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
+WAIST	96.52	106	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
+INSIDE LEG	76.3	23	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+INSIDE LEG	76.3	24	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+INSIDE LEG	76.3	25	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+INSIDE LEG	76.3	26	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+INSIDE LEG	76.3	27	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+INSIDE LEG	76.3	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	SHORT
+INSIDE LEG	83.82	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+INSIDE LEG	83.82	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+INSIDE LEG	83.82	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+INSIDE LEG	83.82	50	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+INSIDE LEG	83.82	52	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+INSIDE LEG	83.82	54	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+INSIDE LEG	83.82	56	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+INSIDE LEG	83.82	58	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+INSIDE LEG	83.82	60	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	REGULAR
+INSIDE LEG	91.3	94	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
+INSIDE LEG	91.3	98	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
+INSIDE LEG	91.3	102	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
+INSIDE LEG	91.3	106	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
+CHEST	96.52-101.6	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
+CHEST	101.6-106.68	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
+CHEST	106.68-111.76	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
+CHEST	111.76-116.84	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
+CHEST	116.84-121.92	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
+CHEST	121.92-127	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
+CHEST	127-132.08	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
+CHEST	101.6	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+CHEST	106.8	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+CHEST	111.76	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+CHEST	116.84	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+CHEST	121.92	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+CHEST	127	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+BACK LENGTH	66.04	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+BACK LENGTH	68.58	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+BACK LENGTH	71.12	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+BACK LENGTH	73.66	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+BACK LENGTH	76.2	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+BACK LENGTH	78.74	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JUMPERS & SWEATERS	-
+CHEST	101.6	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+CHEST	106.8	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+CHEST	111.76	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+CHEST	116.84	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+CHEST	121.92	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+CHEST	127	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+BACK LENGTH	66.04	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+BACK LENGTH	68.58	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+BACK LENGTH	71.12	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+BACK LENGTH	73.66	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+BACK LENGTH	76.2	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+BACK LENGTH	78.74	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	REGULAR
+CHEST	96.52	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+CHEST	101.6	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+CHEST	106.8	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+CHEST	111.76	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+CHEST	116.84	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+CHEST	121.92	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+BACK LENGTH	66.04	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+BACK LENGTH	68.58	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+BACK LENGTH	71.12	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+BACK LENGTH	73.66	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+BACK LENGTH	76.2	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+BACK LENGTH	78.74	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	POLO SHIRTS, RUGBY SHIRTS & T-SHIRTS	FITTED
+WAIST	76.2	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
+WAIST	81.28	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
+WAIST	86.36	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
+WAIST	91.44	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
+WAIST	96.52	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
+WAIST	101.6	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
+WAIST	16.68	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
+WAIST	76.2	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	UNDERWEAR	-
+WAIST	81.28	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	UNDERWEAR	-
+WAIST	86.36	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	UNDERWEAR	-
+WAIST	91.44	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	UNDERWEAR	-
+WAIST	96.52	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	UNDERWEAR	-
+CHEST	104	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+CHEST	110	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+CHEST	116	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+CHEST	122	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+CHEST	130	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+CHEST	138	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+CHEST	146	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+CHEST	154	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+NECK	36	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+NECK	38	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+NECK	40	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+NECK	42	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+NECK	44	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+NECK	46	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+NECK	48	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+NECK	48	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SLEEVE LENGTH	86	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SLEEVE LENGTH	88	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SLEEVE LENGTH	90	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SLEEVE LENGTH	92	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SLEEVE LENGTH	94.5	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SLEEVE LENGTH	97	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SLEEVE LENGTH	99.5	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SLEEVE LENGTH	102	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+BACK LENGTH	76	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+BACK LENGTH	78	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+BACK LENGTH	80	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+BACK LENGTH	82	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+BACK LENGTH	84	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+BACK LENGTH	86	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+BACK LENGTH	88	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+BACK LENGTH	90	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SHOULDER WIDTH	41	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SHOULDER WIDTH	44	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SHOULDER WIDTH	47	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SHOULDER WIDTH	50	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SHOULDER WIDTH	54	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SHOULDER WIDTH	58	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SHOULDER WIDTH	62	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+SHOULDER WIDTH	66	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	REGULAR FIT
+NECK	36	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+NECK	38	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+NECK	40	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+NECK	42	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+NECK	44	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+NECK	46	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+NECK	48	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+CHEST	96	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+CHEST	102	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+CHEST	108	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+CHEST	114	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+CHEST	120	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+CHEST	126	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+CHEST	132	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+CHEST	138	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SLEEVE LENGTH	86	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SLEEVE LENGTH	88	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SLEEVE LENGTH	90	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SLEEVE LENGTH	92	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SLEEVE LENGTH	94	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SLEEVE LENGTH	96	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SLEEVE LENGTH	98	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SLEEVE LENGTH	100	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+BACK LENGTH	74	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+BACK LENGTH	76	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+BACK LENGTH	78	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+BACK LENGTH	80	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+BACK LENGTH	82	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+BACK LENGTH	84	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+BACK LENGTH	86	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+BACK LENGTH	88	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SHOULDER WIDTH	38.4	XS	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SHOULDER WIDTH	41.4	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SHOULDER WIDTH	44.4	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SHOULDER WIDTH	47.4	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SHOULDER WIDTH	50.4	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SHOULDER WIDTH	53.4	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SHOULDER WIDTH	56.4	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+SHOULDER WIDTH	59.4	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	FITTED
+CHEST	101.6	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+CHEST	106.68	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+CHEST	111.76	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+CHEST	116.84	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+CHEST	121.92	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+CHEST	127	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+NECK	38.1	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+NECK	39.37	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+NECK	41.91	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+NECK	43.18	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+NECK	45.72	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+NECK	46.99	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+BACK LENGTH	73.66	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+BACK LENGTH	76.2	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+BACK LENGTH	78.74	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+BACK LENGTH	81.28	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+BACK LENGTH	83.82	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+BACK LENGTH	86.36	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+

@@ -1,0 +1,143 @@
+
+
+at sizes preprocessing, fix sizes
+
+
+(* 1)
+
+this
+
+INSIDE LEG	76.3	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	28	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	29	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	30	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	31	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	32	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	33	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	34	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	35	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	36	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	37	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	38	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	40	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	42	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	44	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	46	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+
+to this
+
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-76.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	76.3-81.2	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-81.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	81.3-86.2	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-86.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	86.3-91.2	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+INSIDE LEG	91.3-91.3	48	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JEANS	-
+
+
+

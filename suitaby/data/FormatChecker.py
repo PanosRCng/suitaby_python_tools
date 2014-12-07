@@ -59,7 +59,7 @@ class FormatChecker():
 			# split line to columns using 'tab' 
 			columns = line.split('\t')
 		
-			if len(columns) != 15:
+			if len(columns) != 16:
 				print 'please fix this line: ' + line + '  (!) length:' + str(len(columns))
 				ok = False
 

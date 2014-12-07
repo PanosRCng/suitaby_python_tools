@@ -1,21 +1,4 @@
 #size_type	size	label	brand	url	clothe_category	size_category
-WAIST	68.5-70	28	LEVIS	http://www.levi.com	Mens Bottoms	-
-WAIST	70-72.5	29	LEVIS	http://www.levi.com	Mens Bottoms	-
-WAIST	72.5-75	30	LEVIS	http://www.levi.com	Mens Bottoms	-
-WAIST	75-77.5	31	LEVIS	http://www.levi.com	Mens Bottoms	-
-WAIST	77.5-80	32	LEVIS	http://www.levi.com	Mens Bottoms	-
-SEAT	86.5-89	28	LEVIS	http://www.levi.com	Mens Bottoms	-
-SEAT	89-91.5	29	LEVIS	http://www.levi.com	Mens Bottoms	-
-SEAT	91.5-94	30	LEVIS	http://www.levi.com	Mens Bottoms	-
-SEAT	94-96.5	31	LEVIS	http://www.levi.com	Mens Bottoms	-
-SEAT	96.5-99	32	LEVIS	http://www.levi.com	Mens Bottoms	-
-THIGH	52.25-53.5	28	LEVIS	http://www.levi.com	Mens Bottoms	-
-THIGH	53.5-54.75	29	LEVIS	http://www.levi.com	Mens Bottoms	-
-THIGH	54.75-56	30	LEVIS	http://www.levi.com	Mens Bottoms	-
-THIGH	56-57.25	31	LEVIS	http://www.levi.com	Mens Bottoms	-
-THIGH	57.25-58.5	32	LEVIS	http://www.levi.com	Mens Bottoms	-
-INSIDE LEG	69.5-74.5	30	LEVIS	http://www.levi.com	Mens Bottoms	-
-INSIDE LEG	74.5-79.5 	32	LEVIS	http://www.levi.com	Mens Bottoms	-
 CHEST	91-95	S	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
 CHEST	96-100	M	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
 CHEST	101-106	L	D555	http://www.dukeclothing.com/sizefitguide	Shirts	Regular & King Size
@@ -178,13 +161,13 @@ WAIST	92	102	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
 WAIST	96	106	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
 WAIST	100	110	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
 WAIST	104	114	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
-HIP	95	90	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
-HIP	99	94	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
-HIP	103	98	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
-HIP	107	102	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
-HIP	111	106	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
-HIP	115	110	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
-HIP	119	114	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIPS	95	90	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIPS	99	94	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIPS	103	98	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIPS	107	102	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIPS	111	106	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIPS	115	110	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
+HIPS	119	114	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
 SLEEVE	86	90	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
 SLEEVE	88	94	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
 SLEEVE	90	98	BOSS	-	SUITS TROUSERS TAILORED JACKETS	LONG SIZE
@@ -256,27 +239,27 @@ HIPS	96-98.5	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/085783782
 HIPS	98.5-103	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
 HIPS	103-108	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
 HIPS	108-113	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
-INSIDE LEG	81	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
-INSIDE LEG	81	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
-INSIDE LEG	81	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
-INSIDE LEG	81	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
-INSIDE LEG	81	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
-INSIDE LEG	81	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
-INSIDE LEG	81	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	SHORT
-INSIDE LEG	86	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
-INSIDE LEG	86	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
-INSIDE LEG	86	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
-INSIDE LEG	86	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
-INSIDE LEG	86	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
-INSIDE LEG	86	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
-INSIDE LEG	86	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	REGULAR
-INSIDE LEG	91	30	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
-INSIDE LEG	91	31	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
-INSIDE LEG	91	32	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
-INSIDE LEG	91	33	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
-INSIDE LEG	91	34	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
-INSIDE LEG	91	36	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
-INSIDE LEG	91	38	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	LONG
+INSIDE LEG	81	30 SHORT	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	81	31 SHORT	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	81	32 SHORT	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	81	33 SHORT	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	81	34 SHORT	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	81	36 SHORT	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	81	38 SHORT	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	86	30 REGULAR	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	86	31 REGULAR	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	86	32 REGULAR	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	86	33 REGULAR	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	86	34 REGULAR	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	86	36 REGULAR	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	86	38 REGULAR	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	91	30 LONG	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	91	31 LONG	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	91	32 LONG	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	91	33 LONG	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	91	34 LONG	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	91	36 LONG	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
+INSIDE LEG	91	38 LONG	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	SPORTSWEAR JEANS	-
 WAIST	83-86	48	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
 WAIST	87-90	50	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
 WAIST	91-94	52	TOMMY HILFIGER	http://eu.tommy.com/Tommy-Stretch-Shirt/0857837824,default,pd.html?cgid=203000#!color%3D100%26i%3D4%26size%3DS	BUSINESS SUITS	REGULAR LENGTH
@@ -519,16 +502,16 @@ WAIST	90.5	34	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-6
 WAIST	95.5	36	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
 WAIST	100.5	38	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
 WAIST	105.5	40	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	77.5	28	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	80	29	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	82.5	30	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	85	31	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	87.5	32	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	90	33	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	92.5	34	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	97.5	36	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	102.5	38	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
-LOW WAIST	107.5	40	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	77.5	28	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	80	29	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	82.5	30	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	85	31	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	87.5	32	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	90	33	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	92.5	34	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	97.5	36	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	102.5	38	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
+LOWER WAIST	107.5	40	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
 HIPS	90.5	28	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
 HIPS	93	29	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
 HIPS	95.5	30	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	JEANS & SHORTS	-
@@ -545,12 +528,12 @@ WAIST	88	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-
 WAIST	94	XL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
 WAIST	100	XXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
 WAIST	106	XXXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
-LOW WAIST	78	S	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
-LOW WAIST	84	M	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
-LOW WAIST	90	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
-LOW WAIST	96	XL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
-LOW WAIST	102	XXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
-LOW WAIST	108	XXXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOWER WAIST	78	S	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOWER WAIST	84	M	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOWER WAIST	90	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOWER WAIST	96	XL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOWER WAIST	102	XXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
+LOWER WAIST	108	XXXL	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
 HIPS	91	S	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
 HIPS	97	M	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
 HIPS	103	L	REPLAY	http://shop.replay.it/en/Replay/SS14/Man/Jeans/billstrong-606-308-classic-fit-2747.html	PANTS	-
@@ -770,8 +753,8 @@ INSIDE LEG	91.3	94	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chin
 INSIDE LEG	91.3	98	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
 INSIDE LEG	91.3	102	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
 INSIDE LEG	91.3	106	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	CHINOS & TROUSERS	LONG
-CHEST	96.52-101.6	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
-CHEST	101.6-106.68	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
+CHEST	96.52-101,6	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
+CHEST	101,6-106.68	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
 CHEST	106.68-111.76	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
 CHEST	111.76-116.84	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
 CHEST	116.84-121.92	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	JACKETS & COATS	-
@@ -922,4 +905,668 @@ BACK LENGTH	78.74	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chi
 BACK LENGTH	81.28	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
 BACK LENGTH	83.82	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
 BACK LENGTH	86.36	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHIRTS	RUGGER
+NECK	34.29-35.56	XS	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+NECK	35.56-36.83	S	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+NECK	38.1-39.37	M	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+NECK	40.64-41.91	L	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+NECK	43.18-44.45	XL	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+NECK	45.72-46.99	XXL	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+CHEST	91.44-96.52	XS	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+CHEST	96.52-101.6	S	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+CHEST	101.6-106.68	M	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+CHEST	106.68-111.76	L	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+CHEST	111.76-116.84	XL	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+CHEST	116.84-121.92	XXL	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, T-SHIRTS, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+SLEEVE LENGTH	82.55	XS	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+SLEEVE LENGTH	85.09	S	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+SLEEVE LENGTH	87.63	M	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+SLEEVE LENGTH	90.17	L	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+SLEEVE LENGTH	92.71	XL	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+SLEEVE LENGTH	95.25	XXL	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	SPORT SHIRTS, DRESS SHIRTS, POLO, SHEP SHIRTS, PULLOVERS, FLEECE, OUTERWEAR, BLAZERS	-
+WAIST	71.12-76.2	XS	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	PANTS, SHORTS, SWIMWEAR, BELTS, BOXERS	-
+WAIST	76.2-81.28	S	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	PANTS, SHORTS, SWIMWEAR, BELTS, BOXERS	-
+WAIST	81.28-86.36	M	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	PANTS, SHORTS, SWIMWEAR, BELTS, BOXERS	-
+WAIST	91.44-96.52	L	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	PANTS, SHORTS, SWIMWEAR, BELTS, BOXERS	-
+WAIST	101.6-106.68	XL	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	PANTS, SHORTS, SWIMWEAR, BELTS, BOXERS	-
+WAIST	106.68-111.76	XXL	VINEYARD VINES	http://www.vineyardvines.com/Size-Charts/size-charts,default,pg.html	PANTS, SHORTS, SWIMWEAR, BELTS, BOXERS	-
+CHEST	86-91	S	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+CHEST	97-102	M	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+CHEST	107-112	L	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+CHEST	117-122	XL	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+CHEST	127	XXL	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+SLEEVE LENGTH	81.5-84	S	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+SLEEVE LENGTH	86.5-89	M	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+SLEEVE LENGTH	91.5-94	L	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+SLEEVE LENGTH	95.5-96.5	XL	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+SLEEVE LENGTH	96.5-98	XXL	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S TOPS	-
+WAIST	69	27	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	71	28	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	74	29	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	76	30	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	78.5	31	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	81	32	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	83.5	33	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	86	34	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	91	36	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	97	38	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	102	40	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+WAIST	107	42	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	89	27	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	91	28	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	93	29	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	94	30	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	96.5	31	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	99	32	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	101.5	33	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	104	34	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	109	36	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	114	38	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	119	40	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+HIPS	124	42	VANS	http://collection.vans.eu/eu-en/catalog/sizechart/	MEN'S BOTTOMS	-
+NECK	36,83	S	BROOKS BROTERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT, TRADITIONAL FIT
+NECK	38,1-39,37	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT, TRADITIONAL FIT
+NECK	40,64-41,91	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT, TRADITIONAL FIT
+NECK	43,18-44,45	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT, TRADITIONAL FIT
+NECK	45,7-46,99	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT, TRADITIONAL FIT
+NECK	48,26-50,8	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT,TRADITIONAL FIT
+CHEST	86,36	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT,TRADITIONAL FIT
+CHEST	91,44-96,52	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT,TRADITIONAL FIT
+CHEST	101,6-106,68	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT, TRADITIONAL FIT
+CHEST	111,8-116,84	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT, TRADITIONAL FIT
+CHEST	121,92-127	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT, TRADITIONAL FIT
+CHEST	132,08-137,16	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT, SLIM FIT,REGULAR FIT, TRADITIONAL FIT
+WAIST	93,98-99,06	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+WAIST	99,06-104	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+WAIST	109,22-114,3	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+WAIST	119,4-124,5	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+WAIST	130-134,6	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+WAIST	139,7-144,8	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+BACK	78,74	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+BACK	80,01-81	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+BACK	81,28-82,55	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+BACK	83,82-84,46	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+BACK	85,1-88,9	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+BACK	90,17-91,44	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	EXTRA SLIM FIT
+WAIST	96,52	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+WAIST	101,6-106,68	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+WAIST	111,76-116,84	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+WAIST	121,92-127	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+WAIST	132,08-137,16	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+WAIST	142,24-147,32	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+BACK	78,84	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+BACK	80,01-80,65	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+BACK	81,28-82,55	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+BACK	83,82-85,73	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+BACK	85,09-88,9	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+BACK	90,17-91,44	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	SLIM FIT
+WAIST	106,68	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+WAIST	111,76-116,84	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+WAIST	121,92-127	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+WAIST	132,08-137,16	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+WAIST	142,24-147,32	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+WAIST	152,4-157,48	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+BACK	81,28	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+BACK	82,55-83,19	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+BACK	83,82-85,09	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+BACK	86,36-87	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+BACK	87,63-91,44	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+BACK	92,71-93,98	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	REGULAR FIT
+WAIST	110,49	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+WAIST	115,57-120,65	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+WAIST	125,73-130,81	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+WAIST	135,89-140,97	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+WAIST	146,05-151,13	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+WAIST	156,21-161,29	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+BACK	81,28	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+BACK	82,25-82,55	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+BACK	84,46-85,09	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+BACK	86,36-87	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+BACK	87,63-91,44	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+BACK	92,71-93,98	XXXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/dress-shirts/0203,el_GR,sc.html?lid=topnav-menu	DRESS SHIRTS	TRADITIONAL FIT
+NECK	33,02-34,29	XS	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+NECK	35,56-36,83	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+NECK	38,10-39,37	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+NECK	40,64-41,91	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+NECK	43,18-44,45	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+NECK	45,72-46,99	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+SLEEVE LENGTH	81,28	XS	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+SLEEVE LENGTH	82,55	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+SLEEVE LENGTH	86,36	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+SLEEVE LENGTH	88,9	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+SLEEVE LENGTH	90,17	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+SLEEVE LENGTH	91,44	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+CHEST	81,28-86,36	XS	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+CHEST	86,36-91,44	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+CHEST	96,52-101,6	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+CHEST	106,68-111,76	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+CHEST	116,84-121,92	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+CHEST	127-132,08	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+WAIST	71,12-76,20	XS	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+WAIST	76,20-81,28	S	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+WAIST	86,36-91,44	M	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+WAIST	96,52-101,6	L	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+WAIST	106,68-111,76	XL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+WAIST	116.84-121.92	XXL	BROOKS BROTHERS	http://www.brooksbrothers.com/mens/sport-shirts/0297,el_GR,sc.html?lid=leftnav-menu	CASUAL SHIRTS	EXTRA SLIM FIT, SLIM FIT, REGULAR FIT
+WAIST	68.5-70	28	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	70-72.5	29	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	72.5-75	30	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	75-77.5	31	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	77.5-80	32	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	80-82.5	33	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	82.5-86	34	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	86-91	36	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	91-96	38	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	96-101	40	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+WAIST	101-106	42	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	86.5-89	28	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	89-91.5	29	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	91.5-94	30	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	94-96.5	31	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	96.5-99	32	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	99-101.5	33	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	101.5-105	34	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	105-110	36	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	110-115	38	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	115-120	40	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+HIPS	120-125	42	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	52.25-53.5	28	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	53.5-54.75	29	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	54.75-56	30	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	56-57.25	31	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	57.25-58.5	32	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	58.5-59.75	33	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	59.75-61.5	34	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	61.5-64	36	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	64-66.5	38	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	66.5-69	40	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
+THIGH	69-71.5	42	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S BOTTOMS	SKINNY, SLIM, STRAIGHT, TAPER, BOOTCAT
 
+
+
+
+NECK	34-35.5	XXS	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+NECK	35.5-37	XS	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+NECK	37-38.5	S	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+NECK	38.5-40	M	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+NECK	40-41.5	L	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+NECK	41.5-43	XL	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+CHEST	75-81	XXS	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+CHEST	81-89	XS	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+CHEST	89-97	S	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+CHEST	97-105	M	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+CHEST	105-113	L	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+CHEST	113-121	XL	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+WAIST	58-66	XXS	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+WAIST	66-74	XS	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+WAIST	74-82	S	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+WAIST	82-90	M	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+WAIST	90-98	L	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+WAIST	98-106	XL	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+HIPS	77-85	XXS	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+HIPS	85-93	XS	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+HIPS	93-101	S	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+HIPS	101-109	M	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+HIPS	109-117	L	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+HIPS	117-125	XL	LEVI'S	http://www.levi.com/GR/en_GB/about/size-chart?brand=LEVI&newSession=false	MEN'S TOPS	-
+WAIST	69.85-71.12	28	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	72.39-73.66	29	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	74.93-76.2	30	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	77.47-78.74	31	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	80.01-81.28	32	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	82.55-83.82	33	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	85.09-86.36	34	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	88.9-91.44	36	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	93.98-96.52	38	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	99.06-101.6	40	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	104.14-106.68	42	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	88.9-90.17	28	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	91.44-92.71	29	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	93.98-95.25	30	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	96.52-97.79	31	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	99.06-100.33	32	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	101.6-102.87	33	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	104.14-105.41	34	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	107.31-109.22	36	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	111.12-113.03	38	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	114.93-116.84	40	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+HIPS	118.74-120.65	42	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	LOOSE, REGULAR, RELAXED, SLIM
+WAIST	69.85-71.12	28	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	72.39-73.66	29	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	74.93-76.2	30	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	77.47-78.74	31	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	80.01-81.28	32	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	82.55-83.82	33	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	85.09-86.36	34	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	88.9-91.44	36	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	93.98-96.52	38	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	99.06-101.6	40	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	104.14-106.68	42	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	88.9-90.17	28	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	91.44-92.71	29	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	93.98-95.25	30	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	96.52-97.79	31	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	99.06-100.33	32	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	101.6-102.87	33	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	104.14-105.41	34	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	107.31-109.22	36	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	111.12-113.03	38	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	114.93-116.84	40	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+HIPS	118.74-120.65	42	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	LOOSE, REGULAR, RELAXED
+WAIST	109.22-111.76	44	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+WAIST	114.3-116.84	46	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+WAIST	119.38-121.92	48	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+WAIST	124.46-127	50	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+WAIST	129.54-132.08	52	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+WAIST	134.62-137.16	54	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+WAIST	139.7-142.24	56	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+WAIST	144.78-147.32	58	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+WAIST	149.86-152.40	60	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+HIPS	121.92-124.46	44	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+HIPS	126.36-128.9	46	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+HIPS	130.81-133.35	48	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+HIPS	135.25-137.79	50	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+HIPS	139.7-141.6	52	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+HIPS	143.51-145.41	54	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+HIPS	147.32-149.22	56	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+HIPS	151.13-153.03	58	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+HIPS	154.94-156.84	60	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/jeans.html	JEANS	BIG&TALL
+WAIST	109.22-111.76	44	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+WAIST	114.3-116.84	46	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+WAIST	119.38-121.92	48	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+WAIST	124.46-127	50	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+WAIST	129.54-132.08	52	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+WAIST	134.62-137.16	54	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+WAIST	139.7-142.24	56	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+WAIST	144.78-147.32	58	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+WAIST	149.86-152.40	60	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+HIPS	121.92-124.46	44	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+HIPS	126.36-128.9	46	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+HIPS	130.81-133.35	48	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+HIPS	135.25-137.79	50	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+HIPS	139.7-141.6	52	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+HIPS	143.51-145.41	54	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+HIPS	147.32-149.22	56	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+HIPS	151.13-153.03	58	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+HIPS	154.94-156.84	60	LEE	http://www.lee.com/store/LEE_STORE_US/en_US/category/men/pants.html	PANTS	BIG&TALL
+WAIST	81.28-83.82	S	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	MENS'S SIZE
+WAIST	83.82-86.36	M	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	MENS'S SIZE
+WAIST	86.36-88.9	L	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	MENS'S SIZE
+WAIST	88.9-91.44	XL	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	MENS'S SIZE
+WAIST	91.44-93.98	XXL	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	MENS'S SIZE
+WAIST	106.68-111.76	1X	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	116.84-121.92	2X	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	127-132.08	3X	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	137.16-142.24	4X	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	147.32-152.4	5X	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	157.48-162.56	6X	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	91.44-96.52	LT	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 4” AND OVER
+WAIST	101.6-106.68	XLT	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 4” AND OVER
+WAIST	111.76-116.84	2XLT	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 4” AND OVER
+WAIST	121.92-127	3XLT	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 4” AND OVER
+WAIST	157.48-162.56	4XLT	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL, 6’ 4” AND OVER
+WAIST	132.08-137.16	6X	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	JEANS	BIG & TALL
+WAIST	81.28-83.82	S	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	MENS'S SIZE
+WAIST	83.82-86.36	M	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	MENS'S SIZE
+WAIST	86.36-88.9	L	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	MENS'S SIZE
+WAIST	88.9-91.44	XL	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	MENS'S SIZE
+WAIST	91.44-93.98	XXL	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	MENS'S SIZE
+WAIST	106.68-111.76	1X	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	116.84-121.92	2X	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	127-132.08	3X	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	137.16-142.24	4X	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	147.32-152.4	5X	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	157.48-162.56	6X	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 3” AND UNDER
+WAIST	91.44-96.52	LT	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 4” AND OVER
+WAIST	101.6-106.68	XLT	NAUTICA	http://www.nautica.com/glacier-wash-relaxed-denim-jeans/1P3019.html?dwvar_1P3019_color=953#uuid=cdzfIiaagZ2MwaaadaHbhz5K68	PANTS	BIG & TALL, 6’ 4” AND OVER
+WAIST	111.76-116.84	2XLT	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 4” AND OVER
+WAIST	121.92-127	3XLT	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 4” AND OVER
+WAIST	157.48-162.56	4XLT	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL, 6’ 4” AND OVER
+WAIST	132.08-137.16	6X	NAUTICA	http://www.nautica.com/danforth-corduroy-pant/P43300.html?dwvar_P43300_color=124#uuid=beycgiaagZmZkaaadeilMlyeIb	PANTS	BIG & TALL
+CHEST	88.9-93.98	S	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+CHEST	91.44-101.6	M	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+CHEST	104.14-109.22	L	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+CHEST	111.76-116.84	XL	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+CHEST	119.38-124.46	XXL	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+NECK	35.36-36.83	S	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+NECK	38.1-39.37	M	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+NECK	40.64-41.91	L	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+NECK	43.18-44.45	XL	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+NECK	40.64-46.99	XXL	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+SLEEVE LENGTH	71.12-78.74	S	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+SLEEVE LENGTH	81.28-86.36	M	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+SLEEVE LENGTH	88.9-93.88	L	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+SLEEVE LENGTH	96.52-101.6	XL	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+SLEEVE LENGTH	104.14-111.76	XXL	NAUTICA	http://www.nautica.com/picnic-plaid-button-down-shirt/W43501.html?dwvar_W43501_color=120#uuid=cdBmAiaagZZfkaaaddcmwhqb7P&display=152&sz=99	SHIRTS	MENS'S SIZE
+CHEST	88.9-93.98	S	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+CHEST	91.44-101.6	M	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+CHEST	104.14-109.22	L	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+CHEST	111.76-116.84	XL	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+CHEST	119.38-124.46	XXL	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+NECK	35.36-36.83	S	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+NECK	38.1-39.37	M	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+NECK	40.64-41.91	L	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+NECK	43.18-44.45	XL	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+NECK	40.64-46.99	XXL	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	MENS'S SIZE
+CHEST	88.9-93.98	S	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+CHEST	91.44-101.6	M	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+CHEST	104.14-109.22	L	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+CHEST	111.76-116.84	XL	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+CHEST	119.38-124.46	XXL	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+NECK	35.36-36.83	S	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+NECK	38.1-39.37	M	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+NECK	40.64-41.91	L	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+NECK	43.18-44.45	XL	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+NECK	40.64-46.99	XXL	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	MENS'S SIZE
+CHEST	116.84-121.92	1X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	127-132.08	2X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	137.16-142.24	3X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	147.32-152.4	4X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	157.48-162.56	5X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	167.64-172.72	6X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	43.18-44.45	1X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	45.72-46.99	2X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	48.26-49.53	3X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	50.8-53.34	4X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	55.88	5X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	60.96	6X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	116.84-121.92	1X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	127-132.08	2X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	137.16-142.24	3X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	147.32-152.4	4X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	157.48-162.56	5X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	167.64-172.72	6X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	43.18-44.45	1X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	45.72-46.99	2X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	48.26-49.53	3X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	50.8-53.34	4X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	55.88	5X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	60.96	6X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	116.84-121.92	1X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	127-132.08	2X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	137.16-142.24	3X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	147.32-152.4	4X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	157.48-162.56	5X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	167.64-172.72	6X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	43.18-44.45	1X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	45.72-46.99	2X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	48.26-49.53	3X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	50.8-53.34	4X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	55.88	5X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+NECK	60.96	6X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 3” AND UNDER
+CHEST	106.68-111.76	LT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	116.84-121.92	XLT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	127-132.08	2XLT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	137.16-142.24	3XLT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	147.32-152.4	4XLT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	167.64-172.72	6X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	40.64-41.91	LT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	43.18-44.45	XLT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	45.72-46.99	2XLT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	48.26-49.53	3XLT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	55.88	4XLT	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	50.8-53.34	6X	NAUTICA	http://www.nautica.com/mens-polos/#uuid=&display=84&sz=99	POLO SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	106.68-111.76	LT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	116.84-121.92	XLT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	127-132.08	2XLT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	137.16-142.24	3XLT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	147.32-152.4	4XLT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	167.64-172.72	6X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	40.64-41.91	LT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	43.18-44.45	XLT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	45.72-46.99	2XLT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	48.26-49.53	3XLT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	55.88	4XLT	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	50.2-53.34	6X	NAUTICA	http://www.nautica.com/mens-active/#uuid=&display=74&sz=99	SWEATSHIRTS & T-SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	106.68-111.76	LT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	116.84-121.92	XLT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	127-132.08	2XLT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	137.16-142.24	3XLT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	147.32-152.4	4XLT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+CHEST	167.64-172.72	6X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	40.64-41.91	LT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	43.18-44.45	XLT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	45.72-46.99	2XLT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	48.26-49.53	3XLT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	55.88	4XLT	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+NECK	50.2-53.34	6X	NAUTICA	http://www.nautica.com/mens-shirts/#uuid=&display=152&sz=99	SHIRTS	BIG&TALL, 6’ 4” AND OVER
+WAIST	76-79	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189653	PANTS&SHORTS	-
+WAIST	81-86	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189653	PANTS&SHORTS	-
+WAIST	91-97	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189653	PANTS&SHORTS	-
+WAIST	102-107	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189653	PANTS&SHORTS	-
+WAIST	112-117	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189653	PANTS&SHORTS	-
+NECK	36-37	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+NECK	38-39	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+NECK	41-42	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+NECK	43-44	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+NECK	45-47	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+CHEST	91-97	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+CHEST	99-104	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+CHEST	107-112	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+CHEST	114-119	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+CHEST	122-127	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+SLEEVE LENGTH	36-37	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+SLEEVE LENGTH	38-39	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+SLEEVE LENGTH	41-42	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+SLEEVE LENGTH	43-44	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+SLEEVE LENGTH	45-47	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4192254	SHIRTS	-
+NECK	36-37	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+NECK	38-39	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+NECK	41-42	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+NECK	43-44	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+NECK	45-47	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+CHEST	91-97	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+CHEST	99-104	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+CHEST	107-112	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+CHEST	114-119	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+CHEST	122-127	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+SLEEVE LENGTH	36-37	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+SLEEVE LENGTH	38-39	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+SLEEVE LENGTH	41-42	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+SLEEVE LENGTH	43-44	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+SLEEVE LENGTH	45-47	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4106845	SWEATERS	-
+NECK	36-37	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+NECK	38-39	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+NECK	41-42	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+NECK	43-44	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+NECK	45-47	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+CHEST	91-97	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+CHEST	99-104	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+CHEST	107-112	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+CHEST	114-119	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+CHEST	122-127	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+SLEEVE LENGTH	36-37	SMALL	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+SLEEVE LENGTH	38-39	MEDIUM	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+SLEEVE LENGTH	41-42	LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+SLEEVE LENGTH	43-44	X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+SLEEVE LENGTH	45-47	2X-LARGE	TIMBERLAND	http://shop.timberland.com/family/index.jsp?categoryId=4189657	TEES & POLOS	-
+HALF CHEST	52	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+HALF CHEST	55	M	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+HALF CHEST	60	L	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+HALF CHEST	65	XL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+HALF CHEST	70	XXL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+BACK LENGTH	76	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+BACK LENGTH	78	M	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+BACK LENGTH	80	L	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+BACK LENGTH	82	XL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+BACK LENGTH	84	XXL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+SLEEVE LENGTH	59	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+SLEEVE LENGTH	60	M	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+SLEEVE LENGTH	61	L	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+SLEEVE LENGTH	62	XL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+SLEEVE LENGTH	63	XXL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=3	SHIRTS	-
+HALF CHEST	48	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+HALF CHEST	53	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+HALF CHEST	58	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+HALF CHEST	63	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+HALF CHEST	67	XXL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+BACK LENGTH	65	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+BACK LENGTH	68	M	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+BACK LENGTH	71	L	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+BACK LENGTH	74	XL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+BACK LENGTH	77	XXL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+SLEEVE LENGTH	62	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+SLEEVE LENGTH	63	M	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+SLEEVE LENGTH	64	L	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+SLEEVE LENGTH	65	XL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+SLEEVE LENGTH	66	XXL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=2	KNITWEAR	-
+HALF CHEST	50	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+HALF CHEST	54	M	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+HALF CHEST	58	L	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+HALF CHEST	62	XL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+HALF CHEST	68	XXL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+BACK LENGTH	68	S	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+BACK LENGTH	70	M	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+BACK LENGTH	72	L	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+BACK LENGTH	74	XL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+BACK LENGTH	76	XXL	MARLBORO	http://www.marlborooriginals.co.za/index.php?nav=product&category=7	POLO & T-SHIRTS	-
+WAIST	70-73	28	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	73-76	29	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	76-78	30	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	78-81	31	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	81-83	32	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	83-86	33	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	86-88	34	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	88-91	35	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	91-93	36	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	96-98	38	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	101-104	40	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	106-109	42	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+WAIST	111-114	44	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	86-88	28	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	88-91	29	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	91-93	30	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	93-96	31	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	96-98	32	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	98-101	33	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	101-103	34	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	103-105	35	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	105-107	36	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	107-110	38	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	110-114	40	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	114-117	42	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+HIPS	117-120	44	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	50-51	28	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	51-53	29	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	53-54	30	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	54-55	31	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	55-57	32	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	57-58	33	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	58-59	34	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	59-60	35	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	60-62	36	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	62-64	38	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	64-65	40	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	65-67	42	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+THIGH	67-69	44	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-bottoms	MEN'S BOTTOMS	-
+
+
+
+
+NECK	34-35.5	XXS	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+NECK	35.5-37	XS	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+NECK	37-38.5	S	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+NECK	38.5-40	M	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+NECK	40-41.5	L	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+NECK	41.5-43	XL	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+CHEST	75-81	XXS	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+CHEST	81-89	XS	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+CHEST	89-97	S	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+CHEST	97-105	M	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+CHEST	105-113	L	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+CHEST	113-121	XL	DOCKERS	http://www.dockers.com/GB/en_GB/sizechart/dockers-men-sizecharts-tops	MEN'S TOPS	-
+WAIST	73-81	S	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+WAIST	81-89	M	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+WAIST	89-97	L	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+WAIST	97-109	XL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+WAIST	109-121	XXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+WAIST	121-133	XXXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+HIPS	88-96	S	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+HIPS	96-104	M	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+HIPS	104-112	L	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+HIPS	112-120	XL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+HIPS	120-128	XXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+HIPS	128-136	XXXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+INSIDE LEG	82.5	S	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+INSIDE LEG	83	M	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+INSIDE LEG	83.5	L	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+INSIDE LEG	84	XL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+INSIDE LEG	84.5	XXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+INSIDE LEG	85	XXXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-pants-sizing-chart	MEN'S PANTS	-
+WAIST	73-81	S	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+WAIST	81-89	M	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+WAIST	89-97	L	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+WAIST	97-109	XL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+WAIST	109-121	XXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+WAIST	121-133	XXXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+HIPS	88-96	S	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+HIPS	96-104	M	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+HIPS	104-112	L	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+HIPS	112-120	XL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+HIPS	120-128	XXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+HIPS	128-136	XXXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-shorts-sizing-chart	MEN'S SHORTS	-
+CHEST	88-96	S	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+CHEST	96-104	M	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+CHEST	104-112	L	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+CHEST	112-124	XL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+CHEST	124-136	XXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+CHEST	136-148	XXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+WAIST	73-81	S	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+WAIST	81-89	M	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+WAIST	89-97	L	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+WAIST	97-109	XL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+WAIST	109-121	XXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+WAIST	121-133	XXXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+HIPS	88-96	S	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+HIPS	96-104	M	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+HIPS	104-112	L	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+HIPS	112-120	XL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+HIPS	120-128	XXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+HIPS	128-136	XXXL	NIKE	http://www.nike.com/gr/el_gr/sfg/mens-tops-sizing-chart	MEN'S TOPS	-
+CHEST	81.28-86.36	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+CHEST	86.36-91.44	S	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+CHEST	96.52-101.6	M	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+CHEST	106.68-111.76	L	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+CHEST	116.84-121.92	XL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+CHEST	127-132.08	XXL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SHOULDER WIDTH	41.275	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SHOULDER WIDTH	43.18	S	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SHOULDER WIDTH	45.72	M	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SHOULDER WIDTH	48.26	L	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SHOULDER WIDTH	50.8	XL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SHOULDER WIDTH	53.34	XXL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+BACK LENGTH	63.5	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+BACK LENGTH	67.31	S	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+BACK LENGTH	70.485	M	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+BACK LENGTH	73.66	L	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+BACK LENGTH	78.105	XL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+BACK LENGTH	80.01	XXL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SLEEVE LENGTH	20.32	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SLEEVE LENGTH	21.59	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SLEEVE LENGTH	22.86	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SLEEVE LENGTH	23.495	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SLEEVE LENGTH	24.130	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+SLEEVE LENGTH	24.765	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	SLIM FIT
+CHEST	86.36-91.44	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+CHEST	96.52-101.6	S	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+CHEST	106.68-111.76	M	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+CHEST	116.84-121.92	L	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+CHEST	127-132.08	XL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+CHEST	132.08-137.16	XXL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SHOULDER WIDTH	43.18	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SHOULDER WIDTH	45.72	S	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SHOULDER WIDTH	48.26	M	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SHOULDER WIDTH	50.8	L	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SHOULDER WIDTH	53.34	XL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SHOULDER WIDTH	55.88	XXL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+BACK LENGTH	67.945	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+BACK LENGTH	71.12	S	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+BACK LENGTH	74.295	M	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+BACK LENGTH	77.47	L	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+BACK LENGTH	79.395	XL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+BACK LENGTH	83.82	XXL	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SLEEVE LENGTH	24.13	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SLEEVE LENGTH	25.4	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SLEEVE LENGTH	26.67	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SLEEVE LENGTH	27.94	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SLEEVE LENGTH	29.21	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT
+SLEEVE LENGTH	30.48	XS	BROOKS BROTERS	http://www.brooksbrothers.com/mens/polos-knits/0298,el_GR,sc.html?lid=topnav-menu	POLOS, RUGBYS & TEES	ORIGINAL FIT

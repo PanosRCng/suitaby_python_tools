@@ -53,16 +53,16 @@ class Generator():
 	# generates more people data
 	def GeneratePeople(self, numPeople, outFilename):
 
-		peopleLines = self.PopulatePeople(numPeople)
-
 		sizeTypesList = self.sizes.getSizeTypesList()
+
+		peopleLines = self.PopulatePeople(numPeople, sizeTypesList)
 
 		self.io.WritePeopleHeader(outFilename, sizeTypesList)
 
 		self.io.WriteFile(outFilename, peopleLines, 'a')
 
 
-	def PopulatePeople(self, numPeople):
+	def PopulatePeople(self, numPeople, sizeTypesList):
 
 		lines = []
 
@@ -74,7 +74,7 @@ class Generator():
 
 			line = str(i)
 
-			for size in sizesBounds:
+			for size in sizeTypesList:
 
 				line += '\t' + str( random.uniform(sizesBounds[size][0], sizesBounds[size][1]) )		
 

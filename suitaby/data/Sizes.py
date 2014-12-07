@@ -18,6 +18,63 @@ class Sizes():
 	#constructor 
 	def __init__(self, dataLines):
 
+		# inverted index of clothe category to parent categories list
+		self.clotheCategoriesInvertedIndex = { 
+						"POLOS" : ["T-SHIRTS"],
+						"RUGBYS" : ["T-SHIRTS"],
+						"TOPS" : ["T-SHIRTS"],
+						"POLO" : ["T-SHIRTS"],
+						"SWEATSHIRTS" : ["T-SHIRTS"],
+						"T-SHIRTS" : ["T-SHIRTS"],
+						"RUGBY" : ["T-SHIRTS"],
+						"MEN'S TOPS" : ["T-SHIRTS", "JACKETS & COATS", "SHIRTS", "KNITWEAR"],
+						"SHEP SHIRTS" : ["T-SHIRTS"],
+						"TEES" : ["T-SHIRTS"],
+						"BUSINESS SUITS" : ["SUITS"],
+						"SUITS TROUSERS" : ["SUITS"],
+						"SUIT" : ["SUITS"],
+						"SUITS" : ["SUITS"],
+						"TAILORED JACKETS"  : ["SUITS"],
+						"COATS" : ["JACKETS & COATS"],
+						"OUTERWEAR" : ["JACKETS & COATS"],
+						"BLAZERS" : ["JACKETS & COATS"],
+						"JACKETS" : ["JACKETS & COATS"],
+						"SPORTSWEAR" : ["SPORTSWEAR"],
+						"ELASTICATED WAIST TROUSERS" : ["SPORTSWEAR"],
+						"SPORT SHIRTS" : ["SPORTSWEAR"],
+						"SWIMWEAR" : ["SPORTSWEAR"],
+						"TRACK PANTS" : ["SPORTSWEAR"],
+						"SHIRTS" : ["SHIRTS"],
+						"BUSINESS SHIRTS" : ["SHIRTS"],
+						"CASUAL" : ["SHIRTS"],
+						"SHIRT" : ["SHIRTS"],
+						"DRESS SHIRTS" : ["SHIRTS"],
+						"APPAREL (POLO)" : ["APPAREL"],
+						"APPAREL" : ["APPAREL"],
+						"MERINO" : ["KNITWEAR"],
+						"CARDIGANS" : ["KNITWEAR"],
+						"PULLOVERS" : ["KNITWEAR"],
+						"JUMPERS" : ["KNITWEAR"],
+						"KNITWEAR" : ["KNITWEAR"],
+						"FLEECE" : ["KNITWEAR"],
+						"SWEATERS" : ["KNITWEAR"],
+						"BOTTOMS" : ["TROUSERS"],
+						"SHORTS" : ["TROUSERS"],
+						"MEN'S SHORTS" : ["TROUSERS"],
+						"MEN'S BOTTOMS" : ["TROUSERS"],
+						"PANTS" : ["TROUSERS"],
+						"MEN'S PANTS" : ["TROUSERS"],
+						"CHINOS" : ["TROUSERS"],
+						"DENIM" : ["TROUSERS"],
+						"JEANS" : ["TROUSERS"],
+						"TROUSERS" : ["TROUSERS"],
+						"BELTS" : ["ACCESSORIES"],
+						"SOCKS" : ["ACCESSORIES"],
+						"UNDERWEAR" : ["UNDERWEAR"],
+						"BOXERS" : ["UNDERWEAR"],
+						"SHOES" : ["SHOES"]
+					      }
+
 		self.sizesDataLines = []
 
 		formatChecker = FormatChecker()
@@ -27,6 +84,44 @@ class Sizes():
 
 		else:
 			self.sizesDataLines = dataLines
+
+
+	# returns the unique parent clothe categories
+	def getParentClotheCategories(self):
+
+		parent_clothe_categories = []
+
+		for clotheCategory in self.clotheCategoriesInvertedIndex.keys():
+			for parent in self.clotheCategoriesInvertedIndex[clotheCategory]:
+				parent_clothe_categories.append(parent)
+
+		return set(parent_clothe_categories)
+
+
+	# make all column data upperCase (exceptions are the url and size columns)
+	def doUpperCase(self):
+		
+		upperDataLines = []
+
+		for line in self.sizesDataLines:
+
+			# split line to columns using 'tab' 
+			columns = line.split('\t')
+
+			size_type = columns[0]
+			size = columns[1]
+			label = columns[2]
+			brand = columns[3]
+			url = columns[4]
+			clothe_category = columns[5]
+			parts = columns[6].split('\n')
+			size_category = parts[0] 
+
+			upperLine = size_type.upper() + '\t' + size + '\t' + label.upper() + '\t' + brand.upper() + '\t' + url + '\t' + clothe_category.upper() + '\t' + size_category.upper()
+
+			upperDataLines.append(upperLine)
+
+		return upperDataLines
 
 
 	# constructs the size catalog
@@ -52,8 +147,49 @@ class Sizes():
 		return sizeCatalog
 
 
+	# returns a clothe categories list from the clothe category column
+	def splitClotheCategory(self, column):
+
+		clotheCategoriesList = []
+		
+		column = column.replace(",", "_")
+		column = column.replace("&", "_")
+
+		parts = column.split("_")
+
+		for part in parts:
+
+			clothe_category = part.strip()
+
+			if clothe_category not in self.clotheCategoriesInvertedIndex.keys():
+
+				ps = clothe_category.split(" ")
+
+				p_exists = False
+				uknown = []
+
+				for p in ps:
+					if p in self.clotheCategoriesInvertedIndex.keys():
+						p_exists = True
+						clotheCategoriesList.append(p)
+					else:
+						uknown.append(p)
+
+				if p_exists:
+					for u in uknown:
+						print "can not find group for this: " + u + " -> " + clothe_category
+				else:
+					print "can not find group fo this: " + clothe_category
+
+			else:
+
+				clotheCategoriesList.append(clothe_category)
+
+		return set(clotheCategoriesList)
+
+
 	# merge synonymous sizeTypes
-	# { hips -> hip, sleeve - sleeve length }
+	# { hip -> hips, sleeve - sleeve length }
 	def mergeSynonymousSizeTypes(self):
 		
 		mergedDataLines = []
@@ -72,9 +208,9 @@ class Sizes():
 			parts = columns[6].split('\n')
 			size_category = parts[0] 
 
-			if (size_type.upper() == "HIPS"):
-				size_type = "HIP"
-			elif (size_type.upper() == "SLEEVE"):
+			if (size_type == "HIP"):
+				size_type = "HIPS"
+			elif (size_type == "SLEEVE"):
 				size_type = "SLEEVE LENGTH"
 
 			mergedLine = size_type + '\t' + size + '\t' + label + '\t' + brand + '\t' + url + '\t' + clothe_category + '\t' + size_category
@@ -150,7 +286,6 @@ class Sizes():
 		return projections
 
 
-
 	# get the unique brands
 	def getBrands(self):
 
@@ -163,18 +298,62 @@ class Sizes():
 			# split line to columns using 'tab' 
 			columns = line.split('\t')
 
-			# upperCase brand columns (uniqueness)
-			columns[3] = columns[3].upper()
-
 			# save brand to brands list
 			brands.append(columns[3])
 
+		# get the unique brands list
 		uniqueBrands = set(brands)
 
 		return uniqueBrands
 
 
-	# get the unique clothe categories
+	# get a dictionary with the urls for the brands in the brands list
+	def getUrls(self, brands):
+
+		# create a dictionary to keep the urls for the brands
+		urls = {}
+
+		# for every brand
+		for brand in brands:
+
+			# find the url for the brand in dataLines
+			for line in self.sizesDataLines:
+
+				# split line to columns using 'tab' 
+				columns = line.split('\t')
+
+				# find a line with the brand
+				if brand == columns[3]:
+
+					# get the url, and save it to dictionary
+					urls[brand] = columns[4]
+					break
+
+		return urls
+
+
+	# get the unique labels
+	def getLabels(self):
+
+		# create an empty list to keep the labels
+		labels = []
+
+		# for every line
+		for line in self.sizesDataLines:
+
+			# split line to columns using 'tab' 
+			columns = line.split('\t')
+
+			# save label to labels list
+			labels.append(columns[2])
+
+		# get the unique labels list
+		uniqueLabels = set(labels)
+
+		return uniqueLabels
+
+
+	# get the clothe categories
 	def getClotheCategories(self):
 
 		# create an empty list to keep the clothe categories
@@ -186,15 +365,59 @@ class Sizes():
 			# split line to columns using 'tab' 
 			columns = line.split('\t')
 
-			# upperCase colthe category columns (uniqueness)
-			columns[5] = columns[5].upper()
-
 			# save clothe category to clothes list
 			clothes.append(columns[5])
 
 		uniqueClothes = set(clothes)
 
 		return uniqueClothes
+
+
+	# get the unique clothe categories
+	def getClotheCategoriesList(self):
+		
+		clotheCategoriesList = []
+
+		clotheCategoriesColumns = self.getClotheCategories()
+
+		for column in clotheCategoriesColumns:
+		
+			column = column.replace(",", "_")
+			column = column.replace("&", "_")
+
+			parts = column.split("_")
+
+			for part in parts:
+
+				clothe_category = part.strip()
+
+				if clothe_category not in self.clotheCategoriesInvertedIndex.keys():
+
+					ps = clothe_category.split(" ")
+
+					p_exists = False
+					uknown = []
+
+					for p in ps:
+						if p in self.clotheCategoriesInvertedIndex.keys():
+							p_exists = True
+							clotheCategoriesList.append(p)
+						else:
+							uknown.append(p)
+
+					if p_exists:
+						for u in uknown:
+							print "can not find group for this: " + u + " -> " + clothe_category
+					else:
+						print "can not find group fo this: " + clothe_category
+
+				else:
+
+					clotheCategoriesList.append(clothe_category)
+
+		uniqueClotheCategoriesList = set(clotheCategoriesList)
+
+		return uniqueClotheCategoriesList
 
 
 	# get the unique size types for every clothe category
@@ -305,15 +528,18 @@ class Sizes():
 			# just split the next line character
 			terms = columns[6].split('\n')		
 
-			if (brand == columns[3].upper()) and (clotheCat == columns[5].upper()) and (sizeCat == terms[0].upper()) and (sizeType == columns[0]):
+			if (brand == columns[3]) and (clotheCat == columns[5]) and (sizeCat == terms[0]) and (sizeType == columns[0]):
+
+				# fix XX,XX to XX.XX
+				columns[1] = columns[1].replace(",", ".")
 
 				sizes.append(columns[1])
 
 				tt = columns[1].split('-')
 
-				labelsList.append( columns[2].upper() )
+				labelsList.append( columns[2] )
 
-				labels[str(float(tt[0]))] = columns[2].upper()
+				labels[str(float(tt[0]))] = columns[2]
 
 				url = columns[4]
 

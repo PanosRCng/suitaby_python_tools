@@ -13,6 +13,7 @@ except ImportError:
 def main():
 
 	inSizesFile = "sizes.txt"
+	upperOutFileName = "upperCaseSizes.txt"
 	mergedOutFileName = "mergedSynonymousSizeTypes_sizes.txt"
 	outFileName = "fixedSizes.txt"
 	fixedSizesOutFile = "fixedSizes.txt"
@@ -173,43 +174,56 @@ def main():
 #
 # preprocessing
 # size catalog construction
+# generate virtual people
 # database construction and bulk load  
-#
-#
-#	# load file as list of string datalines
-#	io = IO()
-#	sizesDataLines = io.ReadFile(inSizesFile)
-#
-#	# create Sizes object
-#	sizes = Sizes(sizesDataLines)	
-#
-#	# merge synonymous sizeTypes, and write them to file
-#	mergedSynonymousSizeTypesLines = sizes.mergeSynonymousSizeTypes()
-#	io.WriteSizesHeader(mergedOutFileName)
-#	io.WriteFile(mergedOutFileName, mergedSynonymousSizeTypesLines, 'a')
-#
-#	# create new Sizes object using the merged sizes dataLines
-#	mergedSizes = Sizes(mergedSynonymousSizeTypesLines)
-#
-#	# get fixed lines as list of string datalines, and write them to file
-#	fixedLines = mergedSizes.getFixedLines()
-#	io.WriteSizesHeader(fixedSizesOutFile)
-#	io.WriteFile(fixedSizesOutFile, fixedLines, 'a')
-#
-#	# create new Sizes object using the fixed sizes dataLines
-#	fixedSizes = Sizes(fixedLines)	
-#
-#	# get the size type projections for every size catalog entry
-#	sizeTypesProjections = fixedSizes.getSizeTypesProjections()
-#
-#	# get the size catalog as list of string datalines, and write it to file
-#	sizeCatalog = fixedSizes.constructSizeCatalog(sizeTypesProjections)
-#	io.WriteSizeCatalogHeader(sizeCatalogFile)
-#	io.WriteFile(sizeCatalogFile, sizeCatalog, 'a')
-#
-#	# create a dbHelper object, connect to database, and construct the db schema
-#	dbHelper = DBHelper("testDB777", fixedSizesOutFile, outPeopleFile, sizeCatalogFile)
-#	dbHelper.constructDbSchema()
+
+
+	# load file as list of string datalines
+	io = IO()
+	sizesDataLines = io.ReadFile(inSizesFile)
+
+	# create Sizes object
+	sizes = Sizes(sizesDataLines)	
+
+	# make all column data upperCase (exceptions are the url and size columns), and write them to file
+	upperDataLines = sizes.doUpperCase()
+	io.WriteSizesHeader(upperOutFileName)
+	io.WriteFile(upperOutFileName, upperDataLines, 'a')
+
+	# create new Sizes object using the upperCase sizes dataLines
+	upperSizes = Sizes(upperDataLines)
+
+	# merge synonymous sizeTypes, and write them to file
+	mergedSynonymousSizeTypesLines = upperSizes.mergeSynonymousSizeTypes()
+	io.WriteSizesHeader(mergedOutFileName)
+	io.WriteFile(mergedOutFileName, mergedSynonymousSizeTypesLines, 'a')
+
+	# create new Sizes object using the merged sizes dataLines
+	mergedSizes = Sizes(mergedSynonymousSizeTypesLines)
+
+	# get fixed lines as list of string datalines, and write them to file
+	fixedLines = mergedSizes.getFixedLines()
+	io.WriteSizesHeader(fixedSizesOutFile)
+	io.WriteFile(fixedSizesOutFile, fixedLines, 'a')
+
+	# create new Sizes object using the fixed sizes dataLines
+	fixedSizes = Sizes(fixedLines)	
+
+	# get the size type projections for every size catalog entry
+	sizeTypesProjections = fixedSizes.getSizeTypesProjections()
+
+	# get the size catalog as list of string datalines, and write it to file
+	sizeCatalog = fixedSizes.constructSizeCatalog(sizeTypesProjections)
+	io.WriteSizeCatalogHeader(sizeCatalogFile)
+	io.WriteFile(sizeCatalogFile, sizeCatalog, 'a')
+
+	# generate virtual people, and write them to file
+	generator = Generator(fixedSizesOutFile)
+	generator.GeneratePeople(10, outPeopleFile)
+
+	# create a dbHelper object, connect to database, and construct the db schema
+	dbHelper = DBHelper("testDB777", fixedSizesOutFile, outPeopleFile, sizeCatalogFile)
+	dbHelper.constructDbSchema()
 
 
 

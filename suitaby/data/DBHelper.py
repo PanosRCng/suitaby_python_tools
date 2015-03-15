@@ -826,7 +826,7 @@ class DBHelper():
 	# returns a query for the creation of the user table
 	def getUserCreationQuery(self):
 
-		query = "create table user (id int not null auto_increment primary key," + " username text(256) not null," + " password text(256) not null" + " )"
+		query = "create table user (id int(10) unsigned not null primary key auto_increment," + " username text(256) not null," + " password text(256) not null" + " )"
 
 		return query
 

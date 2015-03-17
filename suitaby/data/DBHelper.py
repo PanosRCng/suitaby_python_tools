@@ -53,8 +53,8 @@ class DBHelper():
 		self.createSizeCatalogEntryTable()
 		self.createSizeCatalogEntryToClotheCategoryTable()
 		self.createSizeTypesTables()
-
-		self.populateUsers()
+	
+	#	self.populateUsers()
 		brand_ids = self.populateBrands()
 		label_ids = self.populateLabels()
 		clotheCategories_ids = self.populateClotheCategories()
@@ -709,6 +709,8 @@ class DBHelper():
 
 		query = self.getSizeTypeCreationQuery(tableName)
 
+		print query
+
 		cur.execute(query)
 
 		for row in cur.fetchall() :
@@ -786,7 +788,10 @@ class DBHelper():
 	# returns a query for the creation of the parent_clothe_category table
 	def getParentClotheCategoryCreationQuery(self):
 
-		query = "create table parent_clothe_category (id int not null auto_increment primary key," + " name text(256) not null" + " )"
+		query = ("create table parent_clothe_category ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "name varchar(255) not null"
+			 ")")
 
 		return query
 
@@ -794,7 +799,13 @@ class DBHelper():
 	# returns a query for the creation of the size_catalog_entry_to_clothe_category table
 	def getSizeCatalogEntryToClotheCategoryCreationQuery(self):
 
-		query = "create table size_catalog_entry_to_clothe_category (size_catalog_entry_id int not null, clothe_category_id int not null, foreign key (size_catalog_entry_id) references size_catalog_entry(id), foreign key (clothe_category_id) references  clothe_category(id), primary key (size_catalog_entry_id, clothe_category_id) )"
+		query = ("create table size_catalog_entry_to_clothe_category ("
+			 "size_catalog_entry_id int(10) unsigned not null,"
+			 "clothe_category_id int(10) unsigned not null,"
+			 "foreign key (size_catalog_entry_id) references size_catalog_entry(id),"
+			 "foreign key (clothe_category_id) references  clothe_category(id),"
+			 "primary key (size_catalog_entry_id, clothe_category_id)"
+			 ")")
 
 		return query
 
@@ -802,7 +813,13 @@ class DBHelper():
 	# returns a query for the creation of the clothe_category_to_parent table
 	def getClotheCategoryToParentCreationQuery(self):
 
-		query = "create table clothe_category_to_parent (clothe_category_id int not null, parent_clothe_category_id int not null, foreign key (clothe_category_id) references clothe_category(id), foreign key (parent_clothe_category_id) references parent_clothe_category(id), primary key (clothe_category_id, parent_clothe_category_id) )"
+		query = ("create table clothe_category_to_parent ("
+			 "clothe_category_id int(10) unsigned not null,"
+			 "parent_clothe_category_id int(10) unsigned not null,"
+			 "foreign key (clothe_category_id) references clothe_category(id),"
+			 "foreign key (parent_clothe_category_id) references parent_clothe_category(id),"
+			 "primary key (clothe_category_id, parent_clothe_category_id)"
+			 ")")
 
 		return query
 
@@ -810,7 +827,10 @@ class DBHelper():
 	# returns a query for the creation of the clothe_category table
 	def getClotheCategoryCreationQuery(self):
 
-		query = "create table clothe_category (id int not null auto_increment primary key," + " name text(256) not null" + " )"
+		query = ("create table clothe_category ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "name varchar(255) not null"
+			 ")")
 
 		return query
 
@@ -818,7 +838,10 @@ class DBHelper():
 	# returns a query for the creation of the label table
 	def getLabelCreationQuery(self):
 
-		query = "create table label (id int not null auto_increment primary key," + " name text(256) not null" + " )"
+		query = ("create table label ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "name varchar(255) not null"
+			 ")")
 
 		return query
 
@@ -826,7 +849,15 @@ class DBHelper():
 	# returns a query for the creation of the user table
 	def getUserCreationQuery(self):
 
-		query = "create table user (id int(10) unsigned not null primary key auto_increment," + " username text(256) not null," + " password text(256) not null" + " )"
+		query = ("create table users ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "username varchar(255) not null,"
+			 "email varchar(255) not null unique,"
+			 "password varchar(60) not null,"
+			 "created_at timestamp not null default '0000-00-00 00:00:00',"
+			 "updated_at timestamp not null default '0000-00-00 00:00:00',"
+			 "remember_token varchar(100)"
+			 ")")
 
 		return query
 
@@ -836,7 +867,9 @@ class DBHelper():
 
 		sizeTypesList = self.sizes.getSizeTypesList()
 
-		query = "create table size (id int auto_increment not null primary key," + " user_id int not null, "
+		query = ("create table sizes ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "user_id int(10) unsigned not null unique, ")
 
 		for sizeType in sizeTypesList:
 
@@ -844,7 +877,7 @@ class DBHelper():
 
 			query += sizeType + "_point float, "
 
-		query += "foreign key (user_id) references user(id) )"
+		query += "foreign key (user_id) references users(id) )"
 
 		return query
 
@@ -852,7 +885,10 @@ class DBHelper():
 	# returns a query for the creation of the brand table
 	def getBrandCreationQuery(self):
 
-		query = "create table brand (id int not null auto_increment primary key," + " name text(256) not null )"
+		query = ("create table brand ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "name varchar(255) not null"
+			 ")")
 
 		return query
 
@@ -860,9 +896,12 @@ class DBHelper():
 	# returns a query for the creation of the url table
 	def getUrlCreationQuery(self):
 
-		query = "create table url (id int auto_increment not null primary key," + " brand_id int not null, " + " link text(512), "
-
-		query += "foreign key (brand_id) references brand(id) )"
+		query = ("create table url ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "brand_id int(10) unsigned not null unique,"
+			 "link varchar(511),"
+		         "foreign key (brand_id) references brand(id)"
+			 ")")
 
 		return query
 
@@ -870,7 +909,13 @@ class DBHelper():
 	# returns a query for the creation of a sizeType table
 	def getSizeTypeCreationQuery(self, tableName):
 
-		query = "create table " + tableName + " (id int auto_increment not null primary key, " + "size_catalog_entry_id int not null, " + "left_limit float not null, " + "right_limit float not null, " + "foreign key (size_catalog_entry_id) references size_catalog_entry(id)" + " )"
+		query = ("create table " + tableName + " ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "size_catalog_entry_id int(10) unsigned not null,"
+			 "left_limit float not null,"
+			 "right_limit float not null,"
+			 "foreign key (size_catalog_entry_id) references size_catalog_entry(id)"
+			 ")")
 
 		return query
 
@@ -878,7 +923,15 @@ class DBHelper():
 	# returns a query for the creation of a size_catalog_entry table
 	def getSizeCatalogEntryCreationQuery(self):
 
-		query = "create table size_catalog_entry (id int not null auto_increment primary key, " + "size_type_projection text(256) not null, " + "size_category text(256) not null, " + "brand_id int not null, " + "label_id int not null, " + "foreign key (brand_id) references brand(id), " + "foreign key (label_id) references label(id)" + " )"
+		query = ("create table size_catalog_entry ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "size_type_projection varchar(255) not null,"
+			 "size_category varchar(255) not null,"
+			 "brand_id int(10) unsigned not null,"
+			 "label_id int(10) unsigned not null, "
+			 "foreign key (brand_id) references brand(id),"
+			 "foreign key (label_id) references label(id)"
+			 ")")
 
 		return query
 

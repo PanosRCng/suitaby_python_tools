@@ -854,6 +854,8 @@ class DBHelper():
 			 "username varchar(255) not null,"
 			 "email varchar(255) not null unique,"
 			 "password varchar(60) not null,"
+			 "age int(3) unsigned,"
+			 "gender varchar(10) not null,"
 			 "created_at timestamp not null default '0000-00-00 00:00:00',"
 			 "updated_at timestamp not null default '0000-00-00 00:00:00',"
 			 "remember_token varchar(100)"
@@ -874,8 +876,9 @@ class DBHelper():
 		for sizeType in sizeTypesList:
 
 			sizeType = sizeType.replace(" ", "_")
+			sizeType = sizeType.lower()
 
-			query += sizeType + "_point float, "
+			query += sizeType + " float, "
 
 		query += "foreign key (user_id) references users(id) )"
 

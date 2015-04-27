@@ -189,7 +189,7 @@ class Sizes():
 
 
 	# merge synonymous sizeTypes
-	# { hip -> hips, sleeve - sleeve length }
+	# { hip -> hips, sleeve - sleeve length, back -> back_length }
 	def mergeSynonymousSizeTypes(self):
 		
 		mergedDataLines = []
@@ -212,6 +212,8 @@ class Sizes():
 				size_type = "HIPS"
 			elif (size_type == "SLEEVE"):
 				size_type = "SLEEVE LENGTH"
+			elif (size_type == "BACK"):
+				size_type = "BACK LENGTH"
 
 			mergedLine = size_type + '\t' + size + '\t' + label + '\t' + brand + '\t' + url + '\t' + clothe_category + '\t' + size_category
 

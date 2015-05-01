@@ -854,7 +854,7 @@ class DBHelper():
 			 "username varchar(255) not null,"
 			 "email varchar(255) not null unique,"
 			 "password varchar(60) not null,"
-			 "age int(3) unsigned,"
+			 "dob date,"
 			 "gender varchar(10) not null,"
 			 "created_at timestamp not null default '0000-00-00 00:00:00',"
 			 "updated_at timestamp not null default '0000-00-00 00:00:00',"

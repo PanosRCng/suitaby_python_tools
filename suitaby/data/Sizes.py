@@ -187,6 +187,60 @@ class Sizes():
 
 		return set(clotheCategoriesList)
 
+	
+	#
+	def changeURLs(self):
+
+		self.brandsUrls = { "MARLBORO" : "http://www.marlborooriginals.co.za/",
+				    "TOMMY HILFIGER" : "http://eu.tommy.com/",
+				    "TIMBERLAND" : "http://shop.timberland.com/",
+				    "REPLAY" : "http://shop.replay.it/",
+				    "VANS" : "http://collection.vans.eu/",
+				    "BROOKS BROTHERS" : "http://www.brooksbrothers.com/",
+				    "MAGEE1866" : "http://www.magee1866.com/",
+				    "NAUTICA" : "http://www.nautica.com/",
+				    "GANT" : "http://www.gant.co.uk/",
+				    "NIKE" : "http://www.nike.com/",
+				    "LEE" : "http://www.lee.com/",
+				    "WIERD FISH" : "http://www.weirdfish.co.uk/",
+				    "LEVI'S" : "http://www.levi.com/",
+				    "JOE BROWNS" : "http://www.joebrowns.co.uk/",
+				    "DOCKERS" : "http://www.dockers.com/",
+				    "BARKERS" : "http://www.barkersonline.co.nz/",
+				    "HARRIS TWEED" : "http://harristweedco.co.uk/",
+				    "CHATHAM" : "http://www.chatham.co.uk/",
+				    "MEYER" : "http://www.meyer-hosen.com/",
+				    "VINEYARD VINES" : "http://www.vineyardvines.com/",
+				    "JOHN SMEDLEY" : "http://www.johnsmedley.com/",
+				    "ITALIAN CLASSICS" : "http://www.highandmighty.co.uk/",
+				    "D555" : "http://www.dukeclothing.com/",
+				    "POLO" : "-",
+				    "BOSS" : "-" }
+
+		changedUrlsDataLines = []
+
+		for line in self.sizesDataLines:
+
+			# split line to columns using 'tab' 
+			columns = line.split('\t')
+
+			size_type = columns[0]
+			size = columns[1]
+			label = columns[2]
+			brand = columns[3]
+			url = columns[4]
+			clothe_category = columns[5]
+			parts = columns[6].split('\n')
+			size_category = parts[0] 
+
+			url = self.brandsUrls[ brand ]
+
+			changedUrlLine = size_type + '\t' + size + '\t' + label + '\t' + brand + '\t' + url + '\t' + clothe_category + '\t' + size_category
+
+			changedUrlsDataLines.append(changedUrlLine)
+
+		return changedUrlsDataLines	
+
 
 	# merge synonymous sizeTypes
 	# { hip -> hips, sleeve - sleeve length, back -> back_length }

@@ -14,6 +14,7 @@ def main():
 
 	inSizesFile = "sizes.txt"
 	upperOutFileName = "upperCaseSizes.txt"
+	changedUrlsOutFileName = "changedUrlsSizes.txt"
 	mergedOutFileName = "mergedSynonymousSizeTypes_sizes.txt"
 	outFileName = "fixedSizes.txt"
 	fixedSizesOutFile = "fixedSizes.txt"
@@ -185,6 +186,9 @@ def main():
 	# create Sizes object
 	sizes = Sizes(sizesDataLines)	
 
+
+	### starts preprocessing ###
+
 	# make all column data upperCase (exceptions are the url and size columns), and write them to file
 	upperDataLines = sizes.doUpperCase()
 	io.WriteSizesHeader(upperOutFileName)
@@ -193,8 +197,16 @@ def main():
 	# create new Sizes object using the upperCase sizes dataLines
 	upperSizes = Sizes(upperDataLines)
 
+	#change brands' URLs (from sizes source url to the brand url), and write them to file
+	changedURLsDataLines = upperSizes.changeURLs()
+	io.WriteSizesHeader(changedUrlsOutFileName)
+	io.WriteFile(changedUrlsOutFileName, changedURLsDataLines, 'a')
+
+	# create new Sizes object using the changedUrls sizes dataLines
+	changedUrlsSizes = Sizes(changedURLsDataLines)
+
 	# merge synonymous sizeTypes, and write them to file
-	mergedSynonymousSizeTypesLines = upperSizes.mergeSynonymousSizeTypes()
+	mergedSynonymousSizeTypesLines = changedUrlsSizes.mergeSynonymousSizeTypes()
 	io.WriteSizesHeader(mergedOutFileName)
 	io.WriteFile(mergedOutFileName, mergedSynonymousSizeTypesLines, 'a')
 
@@ -205,6 +217,9 @@ def main():
 	fixedLines = mergedSizes.getFixedLines()
 	io.WriteSizesHeader(fixedSizesOutFile)
 	io.WriteFile(fixedSizesOutFile, fixedLines, 'a')
+
+	### ends preprocessing ###
+
 
 	# create new Sizes object using the fixed sizes dataLines
 	fixedSizes = Sizes(fixedLines)	
@@ -222,20 +237,9 @@ def main():
 	generator.GeneratePeople(10, outPeopleFile)
 
 	# create a dbHelper object, connect to database, and construct the db schema
-	dbHelper = DBHelper("testDB777", fixedSizesOutFile, outPeopleFile, sizeCatalogFile)
+	dbHelper = DBHelper("betaDB", fixedSizesOutFile, outPeopleFile, sizeCatalogFile)
 	dbHelper.constructDbSchema()
-
-
-
-#	tester = Tester("testDB777", fixedSizesOutFile, outPeopleFile, sizeCatalogFile)
-
-
-
-#	generator = Generator(fixedSizesOutFile)
-#	generator.GenerateBrands(3, outBrandsFile)
 	
-
-
 	print 'all ok'
 
 

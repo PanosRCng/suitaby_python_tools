@@ -37,7 +37,8 @@ class IO():
 			if line != '\n':
 				# if line is a data line - does not start with '#'
 				if( line[0] != '#' ):
-					dataLines.append(line)			
+
+					dataLines.append( line.replace('\n', '') )			
 
 		if len(dataLines) == 0:
 			print '(!) the file is empty, no lines found in'

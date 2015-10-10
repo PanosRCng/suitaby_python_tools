@@ -86,6 +86,20 @@ class Sizes():
 			self.sizesDataLines = dataLines
 
 
+	# returns the unique parent clothe categories list from a clothe category column
+	def extractParentClotheCategories(self, column):
+
+		parent_clothe_categories = []
+
+		clotheCategories = self.splitClotheCategory(column)
+
+		for clotheCategory in clotheCategories:
+			for parent in self.clotheCategoriesInvertedIndex[clotheCategory]:
+				parent_clothe_categories.append(parent)
+
+		return set(parent_clothe_categories)
+
+
 	# returns the unique parent clothe categories
 	def getParentClotheCategories(self):
 
@@ -96,6 +110,22 @@ class Sizes():
 				parent_clothe_categories.append(parent)
 
 		return set(parent_clothe_categories)
+
+	
+	# returns a list with the child clothe categories for a parent_clothe_category
+	def getChildClotheCategories(self, parent_clothe_category):	
+
+		child_clothe_categories = []
+
+		if parent_clothe_category not in self.getParentClotheCategories():
+			print '(!) the given argument is not a parent clothe category'
+			return child_clothe_categories
+
+		for clotheCategory in self.getClotheCategoriesList():
+			if parent_clothe_category in  self.clotheCategoriesInvertedIndex[clotheCategory]:
+				child_clothe_categories.append( clotheCategory )
+
+		return child_clothe_categories
 
 
 	# make all column data upperCase (exceptions are the url and size columns)
@@ -277,7 +307,7 @@ class Sizes():
 
 
 	# finds the size type projections for every size catalog entry
-	# returns a dictionary projections[size_catalog_entry] = "sizeType_1, sizeType_2," 
+	# returns a dictionary projections[size_catalog_entry] = "[sizeType_1, sizeType_2,]" 
 	def getSizeTypesProjections(self):
 		
 		groupDict = {}
@@ -474,6 +504,26 @@ class Sizes():
 		uniqueClotheCategoriesList = set(clotheCategoriesList)
 
 		return uniqueClotheCategoriesList
+
+
+	# get the unique size types for a parent clothe category
+	def getSizeTypesParent(self, parentClotheCategory):
+
+		sizeTypes = []
+
+		if parentClotheCategory not in self.getParentClotheCategories():
+			print '(!) the given argument is not a parent clothe category'
+			return sizeTypes
+
+		sizeTypesDict = self.getSizeTypes()
+
+		for child_clothe_category in self.getChildClotheCategories(parentClotheCategory):
+			for key in sizeTypesDict.keys():
+				if child_clothe_category in key:
+					for sizeType in sizeTypesDict[key]:
+						sizeTypes.append(sizeType)
+
+		return list(set(sizeTypes))
 
 
 	# get the unique size types for every clothe category

@@ -7,8 +7,9 @@
 
 
 try:
+	from suitaby.data.Dataset import Dataset
 	from math import sqrt
-	from matplotlib.pyplot import *
+	import matplotlib.pyplot as plt
 except ImportError:
 	print '(!) module do not found '	
 	exit()
@@ -38,14 +39,28 @@ class Utils():
 			print '(!) x and y must be of the same size'
 			return -1
 
-		plot(x, y, 'b-o')
-		ylabel('error rate')
-		xlabel('1/K')
-		xlim( min(x) , max(x))
-		ylim( min(y), max(y))
-		show()
+		plt.plot(x, y, 'b-o')
+		plt.ylabel('error rate')
+		plt.xlabel('1/K')
+		plt.xlim( min(x) , max(x))
+		plt.ylim( min(y), max(y))
+		plt.show()
 
 
+	# (!) dataLines must be preprocessed
+	@staticmethod
+	def scatterPlot(dataLines, sizeTypeX, sizeTypeY):
+
+		dataset = Dataset(dataLines)
+	
+		datasetWH = dataset.getDataset([sizeTypeX, sizeTypeY])
+		xs = [line[0] for line in datasetWH if 0 not in line]
+		ys = [line[1] for line in datasetWH if 0 not in line]
+
+		plt.scatter(xs, ys)
+		plt.ylabel(sizeTypeY)
+		plt.xlabel(sizeTypeX)
+		plt.show()
 
 
 

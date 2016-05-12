@@ -26,7 +26,6 @@ except ImportError:
 #		regression: if labels are quantitative data
 #
 #	(*) uses euclidean distance as distance measurement technique
-#	    uses 
 class KNN():
 
 
@@ -153,7 +152,7 @@ class KNN():
 
 			elif self.setting == self.settings[1]:
 
-				cv_er = pow((self.labels[element] - predicted_label), 2) 
+				cv_er += pow((self.labels[element] - predicted_label), 2) 
 
 		return ( cv_er / len(validation_set) )
 

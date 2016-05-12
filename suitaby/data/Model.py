@@ -61,7 +61,7 @@ class KNNModel():
 			k = i+1
 
 			knn = KNN(self.labels, self.data, k, 'regression')
-			KFoldCV_error = knn.KFoldCV( 5 )
+			KFoldCV_error = knn.KFoldCV( len(self.data) )
 
 			if KFoldCV_error > -1:
 				x.append( 1.0 / k )
@@ -70,7 +70,14 @@ class KNNModel():
 		Utils.plot2D(x,y) 
 
 
-	def getModel():
+	def predict(self, element, k):
+
+		knn = KNN(self.labels, self.data, k, 'regression')
+
+		return knn.categorize(element)
+
+
+	def getModel(self):
 
 		return 'model'
 

@@ -802,7 +802,7 @@ WAIST	86.36	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/278
 WAIST	91.44	XL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
 WAIST	96.52	XXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
 WAIST	101.6	XXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
-WAIST	16.68	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
+WAIST	116.68	XXXXL	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	SHORTS & SWIMWEAR	-
 WAIST	76.2	S	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	UNDERWEAR	-
 WAIST	81.28	M	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	UNDERWEAR	-
 WAIST	86.36	L	GANT	http://www.gant.co.uk/mens-chinos/cream-maine-super-chino/27847	UNDERWEAR	-

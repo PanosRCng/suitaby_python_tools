@@ -20,7 +20,7 @@ except ImportError:
 class DBHelper():
 
 	#constructor
-	def __init__(self, databaseName, sizesFilename, peopleFilename, sizeCatalogFilename):
+	def __init__(self, databaseName, sizesFilename, sizeCatalogFilename):
 
 		self.databaseName = databaseName
 
@@ -31,11 +31,9 @@ class DBHelper():
 		self.io = IO()
 
 		sizesDataLines = self.io.ReadFile(sizesFilename)
-		peopleDataLines = self.io.ReadFile(peopleFilename)
 		sizeCatalogDataLines = self.io.ReadFile(sizeCatalogFilename)
 
 		self.sizes = Sizes(sizesDataLines)
-		self.people = People(peopleDataLines)
 		self.sizeCatalog = SizeCatalog(sizeCatalogDataLines)
 
 
@@ -44,6 +42,8 @@ class DBHelper():
 
 		self.createUserTable()
 		self.createSizeTable()
+		self.createPredictedSizeTable()
+		self.createSizeConfidenceTable()
 		self.createBrandTable()
 		self.createUrlTable()
 		self.createLabelTable()
@@ -55,7 +55,6 @@ class DBHelper():
 		self.createSizeTypesTables()
 		self.createUsersLogsTable()
 	
-	#	self.populateUsers()
 		brand_ids = self.populateBrands()
 		label_ids = self.populateLabels()
 		clotheCategories_ids = self.populateClotheCategories()
@@ -148,23 +147,6 @@ class DBHelper():
 			self.insertIntoUrlTable(urls[brand], brand_entry_id)
 
 		return brand_ids
-
-
-	# popoluates user and size table
-	def populateUsers(self):
-
-		sizeTypesList = self.sizes.getSizeTypesList()
-
-		for line in self.people.peopleDataLines:
-
-			columns = line.split("\t")	
-
-			username = "user_" + columns[0]
-			password = "password_" + columns[0] 
-
-			user_entry_id = self.insertIntoUserTable(username, password)
-
-			self.insertIntoSizeTable(user_entry_id, columns[1:], sizeTypesList)
 
 
 	# insert entry into size_catalog_entry_to_clothe_category table
@@ -538,6 +520,37 @@ class DBHelper():
 		self.db.commit()
 
 
+	# creates the predicted size table
+	def createPredictedSizeTable(self):
+
+		cur = self.db.cursor() 
+
+		query = self.getPredictedSizeCreationQuery()
+
+		cur.execute(query)
+
+		for row in cur.fetchall() :
+		    print row[0]
+
+		self.db.commit()
+
+
+	# creates the predicted size table
+	def createSizeConfidenceTable(self):
+
+		cur = self.db.cursor() 
+
+		query = self.getSizeConfidenceCreationQuery()
+
+		cur.execute(query)
+
+		for row in cur.fetchall() :
+		    print row[0]
+
+		self.db.commit()
+
+
+
 	# creates the users_logs table
 	def createUsersLogsTable(self):
 
@@ -886,6 +899,50 @@ class DBHelper():
 		sizeTypesList = self.sizes.getSizeTypesList()
 
 		query = ("create table sizes ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "user_id int(10) unsigned not null unique, ")
+
+		for sizeType in sizeTypesList:
+
+			sizeType = sizeType.replace(" ", "_")
+			sizeType = sizeType.lower()
+
+			query += sizeType + " float, "
+
+		query += "height float, "
+
+		query += "foreign key (user_id) references users(id) )"
+
+		return query
+
+
+	# returns a query for the creation of the predicted size table
+	def getPredictedSizeCreationQuery(self):
+
+		sizeTypesList = self.sizes.getSizeTypesList()
+
+		query = ("create table predicted_sizes ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "user_id int(10) unsigned not null unique, ")
+
+		for sizeType in sizeTypesList:
+
+			sizeType = sizeType.replace(" ", "_")
+			sizeType = sizeType.lower()
+
+			query += sizeType + " float, "
+
+		query += "foreign key (user_id) references users(id) )"
+
+		return query
+
+
+	# returns a query for the creation of the size confidence table
+	def getSizeConfidenceCreationQuery(self):
+
+		sizeTypesList = self.sizes.getSizeTypesList()
+
+		query = ("create table sizes_confidence ("
 			 "id int(10) unsigned not null primary key auto_increment,"
 			 "user_id int(10) unsigned not null unique, ")
 

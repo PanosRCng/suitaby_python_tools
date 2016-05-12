@@ -233,11 +233,11 @@ def main():
 	io.WriteFile(sizeCatalogFile, sizeCatalog, 'a')
 
 	# generate virtual people, and write them to file
-	generator = Generator(fixedSizesOutFile)
-	generator.GeneratePeople(10, outPeopleFile)
+	#generator = Generator(fixedSizesOutFile)
+	#generator.GeneratePeople(10, outPeopleFile)
 
 	# create a dbHelper object, connect to database, and construct the db schema
-	dbHelper = DBHelper("betaDB", fixedSizesOutFile, outPeopleFile, sizeCatalogFile)
+	dbHelper = DBHelper("betaDB", fixedSizesOutFile, sizeCatalogFile)
 	dbHelper.constructDbSchema()
 	
 	print 'all ok'

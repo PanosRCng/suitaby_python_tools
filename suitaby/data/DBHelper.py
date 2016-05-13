@@ -26,7 +26,7 @@ class DBHelper():
 
 		# (!) change this line to make it work
 		# connect with database
-		self.db = MySQLdb.connect(host="localhost", user="root", passwd="root", db=self.databaseName)
+		self.db = MySQLdb.connect(host="localhost", user="root", passwd="root", db=self.databaseName, charset='utf8')
 
 		self.io = IO()
 
@@ -612,7 +612,7 @@ class DBHelper():
 			brand = columns[4]
 			parts = columns[5].split("\n")
 			url = parts[0]
-
+		
 			value = '"' + size_type_projection + '", "' + size_category + '", ' + str(brand_ids[brand]) + ', ' + str(label_ids[label])
 
 			entry_id = self.insertIntoSizeCatalogEntryTable(value)

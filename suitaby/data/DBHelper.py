@@ -54,6 +54,8 @@ class DBHelper():
 		self.createSizeCatalogEntryToClotheCategoryTable()
 		self.createSizeTypesTables()
 		self.createUsersLogsTable()
+		self.createPostCategoryTable()
+		self.createPostsTable()
 	
 		brand_ids = self.populateBrands()
 		label_ids = self.populateLabels()
@@ -550,6 +552,35 @@ class DBHelper():
 		self.db.commit()
 
 
+	# creates the blog posts table
+	def createPostsTable(self):
+
+		cur = self.db.cursor() 
+
+		query = self.getPostsCreationQuery()
+
+		cur.execute(query)
+
+		for row in cur.fetchall() :
+		    print row[0]
+
+		self.db.commit()
+
+
+	# creates the blog post category table
+	def createPostCategoryTable(self):
+
+		cur = self.db.cursor() 
+
+		query = self.getPostCategoryCreationQuery()
+
+		cur.execute(query)
+
+		for row in cur.fetchall() :
+		    print row[0]
+
+		self.db.commit()		
+
 
 	# creates the users_logs table
 	def createUsersLogsTable(self):
@@ -962,6 +993,35 @@ class DBHelper():
 	def getBrandCreationQuery(self):
 
 		query = ("create table brand ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "name varchar(255) not null"
+			 ")")
+
+		return query
+
+
+	# returns a query for the creation of the posts table
+	def getPostsCreationQuery(self):
+
+		query = ("create table posts ("
+			 "id int(10) unsigned not null primary key auto_increment,"
+			 "title varchar(255) not null,"
+			 "body text not null,"
+			 "author varchar(255) not null,"
+			 #"category_id(10) unsigned not null,"
+			 "category_id int(10) unsigned,"
+			 "created_at timestamp not null default '0000-00-00 00:00:00',"
+			 "updated_at timestamp not null default '0000-00-00 00:00:00',"
+			 "foreign key (category_id) references post_category(id)"
+			 ")")
+
+		return query	
+
+
+	# returns a query for the creation of the post category table
+	def getPostCategoryCreationQuery(self):
+
+		query = ("create table post_category ("
 			 "id int(10) unsigned not null primary key auto_increment,"
 			 "name varchar(255) not null"
 			 ")")

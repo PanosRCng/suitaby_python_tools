@@ -54,8 +54,8 @@ class DBHelper():
 		self.createSizeCatalogEntryToClotheCategoryTable()
 		self.createSizeTypesTables()
 		self.createUsersLogsTable()
-		self.createPostCategoryTable()
 		self.createPostsTable()
+		self.createPostToParentClotheCategoryTable()
 	
 		brand_ids = self.populateBrands()
 		label_ids = self.populateLabels()
@@ -568,11 +568,11 @@ class DBHelper():
 
 
 	# creates the blog post category table
-	def createPostCategoryTable(self):
+	def createPostToParentClotheCategoryTable(self):
 
 		cur = self.db.cursor() 
 
-		query = self.getPostCategoryCreationQuery()
+		query = self.getPostToParentClotheCategoryCreationQuery()
 
 		cur.execute(query)
 
@@ -1008,23 +1008,24 @@ class DBHelper():
 			 "title varchar(255) not null,"
 			 "body text not null,"
 			 "author varchar(255) not null,"
-			 #"category_id(10) unsigned not null,"
-			 "category_id int(10) unsigned,"
 			 "created_at timestamp not null default '0000-00-00 00:00:00',"
-			 "updated_at timestamp not null default '0000-00-00 00:00:00',"
-			 "foreign key (category_id) references post_category(id)"
+			 "updated_at timestamp not null default '0000-00-00 00:00:00'"
 			 ")")
 
 		return query	
 
 
 	# returns a query for the creation of the post category table
-	def getPostCategoryCreationQuery(self):
+	def getPostToParentClotheCategoryCreationQuery(self):
 
-		query = ("create table post_category ("
-			 "id int(10) unsigned not null primary key auto_increment,"
-			 "name varchar(255) not null"
+		query = ("create table post_to_parent_clothe_category ("
+			 "post_id int(10) unsigned not null,"
+			 "parent_clothe_category_id int(10) unsigned not null,"
+			 "foreign key (post_id) references posts(id),"
+			 "foreign key (parent_clothe_category_id) references  parent_clothe_category(id),"
+			 "primary key (post_id, parent_clothe_category_id)"
 			 ")")
+
 
 		return query
 

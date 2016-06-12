@@ -245,7 +245,8 @@ class Sizes():
 				    "ITALIAN CLASSICS" : "http://www.highandmighty.co.uk/",
 				    "D555" : "http://www.dukeclothing.com/",
 				    "POLO" : "-",
-				    "BOSS" : "-" }
+				    "BOSS" : "-",
+				    "MANGO" : "www.mango.com" }
 
 		changedUrlsDataLines = []
 

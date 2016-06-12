@@ -17,7 +17,7 @@ def main():
 	changedUrlsOutFileName = "changedUrlsSizes.txt"
 	mergedOutFileName = "mergedSynonymousSizeTypes_sizes.txt"
 	outFileName = "fixedSizes.txt"
-	fixedSizesOutFile = "fixedSizes.txt"
+	preprocessOutFile = "producedData/fixedSizes.txt"
 	outPeopleFile = "generatedPeople.txt"
 	outBrandsFile = "generatedBrands.txt"
 	sizeCatalogFile = "sizeCatalog.txt"
@@ -87,8 +87,8 @@ def main():
 #	fixedLines = sizes.getFixedLines()
 #
 #	# write fixed lines to file
-#	io.WriteSizesHeader(fixedSizesOutFile)
-#	io.WriteFile(fixedSizesOutFile, fixedLines, 'a')
+#	io.WriteSizesHeader(preprocessOutFile)
+#	io.WriteFile(preprocessOutFile, fixedLines, 'a')
 
 
 
@@ -115,7 +115,7 @@ def main():
 
 ### construct the size catalog ###
 #
-#	# load file as list of string datalines
+#	# load file as list of string datalines	
 #	io = IO()
 #	sizesDataLines = io.ReadFile(inSizesFile)
 #	
@@ -163,10 +163,10 @@ def main():
 #	fixedLines = mergedSizes.getFixedLines()
 #
 #	# write fixed lines to file
-#	io.WriteSizesHeader(fixedSizesOutFile)
-#	io.WriteFile(fixedSizesOutFile, fixedLines, 'a')
+#	io.WriteSizesHeader(preprocessOutFile)
+#	io.WriteFile(preprocessOutFile, fixedLines, 'a')
 #
-#	generator = Generator(fixedSizesOutFile)
+#	generator = Generator(preprocessOutFile)
 #	generator.GeneratePeople(10, outPeopleFile)
 
 
@@ -215,32 +215,32 @@ def main():
 
 	# get fixed lines as list of string datalines, and write them to file
 	fixedLines = mergedSizes.getFixedLines()
-	io.WriteSizesHeader(fixedSizesOutFile)
-	io.WriteFile(fixedSizesOutFile, fixedLines, 'a')
+	io.WriteSizesHeader(preprocessOutFile)
+	io.WriteFile(preprocessOutFile, fixedLines, 'a')
 
 	### ends preprocessing ###
 
 
-	# create new Sizes object using the fixed sizes dataLines
-	fixedSizes = Sizes(fixedLines)	
-
-	# get the size type projections for every size catalog entry
-	sizeTypesProjections = fixedSizes.getSizeTypesProjections()
-
-	# get the size catalog as list of string datalines, and write it to file
-	sizeCatalog = fixedSizes.constructSizeCatalog(sizeTypesProjections)
-	io.WriteSizeCatalogHeader(sizeCatalogFile)
-	io.WriteFile(sizeCatalogFile, sizeCatalog, 'a')
-
-	# generate virtual people, and write them to file
-	#generator = Generator(fixedSizesOutFile)
-	#generator.GeneratePeople(10, outPeopleFile)
-
-	# create a dbHelper object, connect to database, and construct the db schema
-	dbHelper = DBHelper("betaDB", fixedSizesOutFile, sizeCatalogFile)
-	dbHelper.constructDbSchema()
-	
-	print 'all ok'
+#	# create new Sizes object using the fixed sizes dataLines
+#	fixedSizes = Sizes(fixedLines)	
+#
+#	# get the size type projections for every size catalog entry
+#	sizeTypesProjections = fixedSizes.getSizeTypesProjections()
+#
+#	# get the size catalog as list of string datalines, and write it to file
+#	sizeCatalog = fixedSizes.constructSizeCatalog(sizeTypesProjections)
+#	io.WriteSizeCatalogHeader(sizeCatalogFile)
+#	io.WriteFile(sizeCatalogFile, sizeCatalog, 'a')
+#
+#	# generate virtual people, and write them to file
+#	#generator = Generator(preprocessOutFile)
+#	#generator.GeneratePeople(10, outPeopleFile)
+#
+#	# create a dbHelper object, connect to database, and construct the db schema
+#	dbHelper = DBHelper("betaDB", preprocessOutFile, sizeCatalogFile)
+#	dbHelper.constructDbSchema()
+#	
+#	print 'all ok'
 
 
 if __name__ == "__main__":

@@ -1,3 +1,9 @@
+#
+#
+#	!!!  outdated  !!!
+#
+
+
 try:
 	from FormatChecker import FormatChecker
 except ImportError:

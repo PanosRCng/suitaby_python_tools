@@ -1,17 +1,22 @@
 try:
 	import sys
-	from IO import IO
-	from Sizes import Sizes
-	from People import People
-	from SizeCatalog import SizeCatalog
 	import MySQLdb
+
+	import io
+	from ClotheCategory import ClotheCategory
+	from Brand import Brand
+	from SizesDataset import SizesDataset
+	from SizeType import SizeType
+	from SizeCatalog import SizeCatalog
+
+#	from People import People
 except ImportError:
-	print '(!) module do not found'	
+	print 'DBHelpder -- (!) module do not found'	
 	exit()
 
 
 #
-# DBHelper module
+# DBHelper class
 #
 # helps to construct a database schema and to make queries
 #
@@ -28,12 +33,11 @@ class DBHelper():
 		# connect with database
 		self.db = MySQLdb.connect(host="localhost", user="root", passwd="root", db=self.databaseName, charset='utf8')
 
-		self.io = IO()
+		sizesDataLines = io.ReadFile(sizesFilename)
+		sizeCatalogDataLines = io.ReadFile(sizeCatalogFilename)
 
-		sizesDataLines = self.io.ReadFile(sizesFilename)
-		sizeCatalogDataLines = self.io.ReadFile(sizeCatalogFilename)
+		self.sizesDataset = SizesDataset( sizesDataLines )
 
-		self.sizes = Sizes(sizesDataLines)
 		self.sizeCatalog = SizeCatalog(sizeCatalogDataLines)
 
 
@@ -55,7 +59,7 @@ class DBHelper():
 		self.createSizeTypesTables()
 		self.createUsersLogsTable()
 		self.createPostsTable()
-		self.createPostToParentClotheCategoryTable()
+		self.createPostsCategoriesRelationshipTable()
 	
 		brand_ids = self.populateBrands()
 		label_ids = self.populateLabels()
@@ -73,12 +77,12 @@ class DBHelper():
 		parentClotheCategories_ids = self.populateParentClotheCategoriesTable()
 		clotheCategories_ids = self.populateClotheCategoriesTable()
 
-		for clotheCategory in self.sizes.clotheCategoriesInvertedIndex.keys():
+		for clotheCategory in ClotheCategory.invertedIndex.keys():
 
 			if clotheCategory in clotheCategories_ids.keys():
 				clothe_category_id = clotheCategories_ids[clotheCategory]
 
-				for parent in self.sizes.clotheCategoriesInvertedIndex[clotheCategory]:
+				for parent in ClotheCategory.invertedIndex[clotheCategory]:
 
 					if parent in parentClotheCategories_ids.keys():
 						parent_clothe_category_id = parentClotheCategories_ids[parent]
@@ -92,7 +96,7 @@ class DBHelper():
 
 		parentClotheCategories_ids = {}
 
-		for parentClotheCategory in self.sizes.getParentClotheCategories():
+		for parentClotheCategory in ClotheCategory.parentClotheCategories:
 			
 			clotheCategory_entry_id = self.insertIntoParentClotheCategoryTable(parentClotheCategory)
 
@@ -106,9 +110,7 @@ class DBHelper():
 		
 		clotheCategories_ids = {}
 
-		clotheCategories = self.sizes.getClotheCategoriesList()
-
-		for clotheCategory in clotheCategories:
+		for clotheCategory in ClotheCategory.clotheCategories:
 			
 			clotheCategory_entry_id = self.insertIntoClotheCategoryTable(clotheCategory)
 
@@ -122,7 +124,7 @@ class DBHelper():
 
 		label_ids = {}
 
-		labels = self.sizes.getLabels( )
+		labels = self.sizesDataset.getLabels( )
 
 		for label in labels:
 
@@ -138,15 +140,13 @@ class DBHelper():
 
 		brand_ids = {}
 
-		urls = self.sizes.getUrls( self.sizes.getBrands() )
+		urls = Brand.brandsUrls
 
 		for brand in urls.keys():
 
-			brand_entry_id = self.insertIntoBrandTable(brand)
+			brand_ids[brand] = self.insertIntoBrandTable(brand)
 
-			brand_ids[brand] = brand_entry_id
-
-			self.insertIntoUrlTable(urls[brand], brand_entry_id)
+			self.insertIntoUrlTable(urls[brand], brand_ids[brand])
 
 		return brand_ids
 
@@ -568,11 +568,11 @@ class DBHelper():
 
 
 	# creates the blog post category table
-	def createPostToParentClotheCategoryTable(self):
+	def createPostsCategoriesRelationshipTable(self):
 
 		cur = self.db.cursor() 
 
-		query = self.getPostToParentClotheCategoryCreationQuery()
+		query = self.getPostsCategoriesRelationshipCreationQuery()
 
 		cur.execute(query)
 
@@ -632,7 +632,7 @@ class DBHelper():
 
 		entriesDict = {}
 
-		for line in self.sizeCatalog.sizeCatalogDataLines:
+		for line in self.sizeCatalog.dataLines:
 
 			columns = line.split("\t")
 
@@ -654,7 +654,7 @@ class DBHelper():
 
 			
 
-			for clotheCategory in self.sizes.splitClotheCategory(clothe_category_column):
+			for clotheCategory in self.sizesDataset.splitClotheCategory(clothe_category_column):
 
 				self.insertIntoSizeCatalogEntryToClotheCategoryTable(entry_id, clotheCategories_ids[clotheCategory])
 
@@ -683,13 +683,11 @@ class DBHelper():
 	# populate sizeTypes table
 	def populateSizeTypesTables(self, entriesDict):
 
-		sizeTypesList = self.sizes.getSizeTypesList()
-
-		for sizeType in sizeTypesList:
+		for sizeType in SizeType.sizeTypes:
 	
 			values = []
 
-			for line in self.sizes.sizesDataLines:
+			for line in self.sizesDataset.dataLines:
 
 				columns = line.split('\t')
 
@@ -753,10 +751,8 @@ class DBHelper():
 
 	# create sizeTypes tables
 	def createSizeTypesTables(self):
-	
-		sizeTypesList = self.sizes.getSizeTypesList()
 
-		for sizeType in sizeTypesList:
+		for sizeType in SizeType.sizeTypes:
 
 			tableName = sizeType.replace(" ", "_")
 
@@ -797,9 +793,7 @@ class DBHelper():
 	# creates an index to a specific column, for all sizeType tables
 	def createSizeTypesIndexes(self, columnName):
 
-		sizeTypesList = self.sizes.getSizeTypesList()
-
-		for sizeType in sizeTypesList:
+		for sizeType in SizeType.sizeTypes:
 
 			tableName = sizeType.replace(" ", "_")
 
@@ -821,9 +815,7 @@ class DBHelper():
 	# drops an index to a specific column, for all sizeType tables
 	def dropSizeTypesIndexes(self, columnName):
 
-		sizeTypesList = self.sizes.getSizeTypesList()
-
-		for sizeType in sizeTypesList:
+		for sizeType in SizeType.sizeTypes:
 
 			tableName = sizeType.replace(" ", "_")
 
@@ -927,20 +919,16 @@ class DBHelper():
 	# returns a query for the creation of the size table
 	def getSizeCreationQuery(self):
 
-		sizeTypesList = self.sizes.getSizeTypesList()
-
 		query = ("create table sizes ("
 			 "id int(10) unsigned not null primary key auto_increment,"
 			 "user_id int(10) unsigned not null unique, ")
 
-		for sizeType in sizeTypesList:
+		for sizeType in SizeType.sizeTypes:
 
 			sizeType = sizeType.replace(" ", "_")
 			sizeType = sizeType.lower()
 
 			query += sizeType + " float, "
-
-		query += "height float, "
 
 		query += "foreign key (user_id) references users(id) )"
 
@@ -950,13 +938,11 @@ class DBHelper():
 	# returns a query for the creation of the predicted size table
 	def getPredictedSizeCreationQuery(self):
 
-		sizeTypesList = self.sizes.getSizeTypesList()
-
 		query = ("create table predicted_sizes ("
 			 "id int(10) unsigned not null primary key auto_increment,"
 			 "user_id int(10) unsigned not null unique, ")
 
-		for sizeType in sizeTypesList:
+		for sizeType in SizeType.sizeTypes:
 
 			sizeType = sizeType.replace(" ", "_")
 			sizeType = sizeType.lower()
@@ -971,13 +957,11 @@ class DBHelper():
 	# returns a query for the creation of the size confidence table
 	def getSizeConfidenceCreationQuery(self):
 
-		sizeTypesList = self.sizes.getSizeTypesList()
-
 		query = ("create table sizes_confidence ("
 			 "id int(10) unsigned not null primary key auto_increment,"
 			 "user_id int(10) unsigned not null unique, ")
 
-		for sizeType in sizeTypesList:
+		for sizeType in SizeType.sizeTypes:
 
 			sizeType = sizeType.replace(" ", "_")
 			sizeType = sizeType.lower()
@@ -1005,9 +989,10 @@ class DBHelper():
 
 		query = ("create table posts ("
 			 "id int(10) unsigned not null primary key auto_increment,"
-			 "title varchar(255) not null,"
-			 "body text not null,"
+			 "post_title varchar(255) not null,"
+			 "post_body text not null,"
 			 "author varchar(255) not null,"
+			 "author_id int(10) unsigned not null,"
 			 "created_at timestamp not null default '0000-00-00 00:00:00',"
 			 "updated_at timestamp not null default '0000-00-00 00:00:00'"
 			 ")")
@@ -1016,14 +1001,16 @@ class DBHelper():
 
 
 	# returns a query for the creation of the post category table
-	def getPostToParentClotheCategoryCreationQuery(self):
+	def getPostsCategoriesRelationshipCreationQuery(self):
 
-		query = ("create table post_to_parent_clothe_category ("
+		query = ("create table posts_categories_relationship ("
 			 "post_id int(10) unsigned not null,"
-			 "parent_clothe_category_id int(10) unsigned not null,"
+			 "category_id int(10) unsigned not null,"
+			 "created_at timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',"
+			 "updated_at timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',"
 			 "foreign key (post_id) references posts(id),"
-			 "foreign key (parent_clothe_category_id) references  parent_clothe_category(id),"
-			 "primary key (post_id, parent_clothe_category_id)"
+			 "foreign key (category_id) references  parent_clothe_category(id),"
+			 "primary key (post_id, category_id)"
 			 ")")
 
 

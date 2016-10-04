@@ -1,3 +1,8 @@
+#
+#
+#	!!!  outdated  !!!
+#
+
 try:
 	import sys
 	import time

@@ -1,26 +1,31 @@
 try:
 	import sys
-	from suitaby.data.IO import IO
-	from suitaby.data.Sizes import Sizes
-	from suitaby.data.Generator import Generator
+
+	from suitaby.data import io
+	from suitaby.data import preprocessor
+	from suitaby.data.SizesDataset import SizesDataset
+
 	from suitaby.data.DBHelper import DBHelper
-	from suitaby.data.Tester import Tester
+
+#	from suitaby.data.Sizes import Sizes
+#	from suitaby.data.Generator import Generator
 except ImportError:
-	print '(!) module do not found '	
+	print 'main -- (!) module do not found '	
 	exit()
 
 
 def main():
 
 	inSizesFile = "sizes.txt"
-	upperOutFileName = "upperCaseSizes.txt"
-	changedUrlsOutFileName = "changedUrlsSizes.txt"
-	mergedOutFileName = "mergedSynonymousSizeTypes_sizes.txt"
-	outFileName = "fixedSizes.txt"
-	preprocessOutFile = "producedData/fixedSizes.txt"
-	outPeopleFile = "generatedPeople.txt"
-	outBrandsFile = "generatedBrands.txt"
-	sizeCatalogFile = "sizeCatalog.txt"
+	sizeCatalogFile = "producedData/sizeCatalog.txt"
+	preprocessOutFile = "producedData/preprocessedSizes.txt"
+
+#	upperOutFileName = "upperCaseSizes.txt"
+#	changedUrlsOutFileName = "changedUrlsSizes.txt"
+#	mergedOutFileName = "mergedSynonymousSizeTypes_sizes.txt"
+#	outFileName = "fixedSizes.txt"
+#	outPeopleFile = "generatedPeople.txt"
+#	outBrandsFile = "generatedBrands.txt"
 
 
 
@@ -180,67 +185,26 @@ def main():
 
 
 	# load file as list of string datalines
-	io = IO()
 	sizesDataLines = io.ReadFile(inSizesFile)
 
-	# create Sizes object
-	sizes = Sizes(sizesDataLines)	
+	preprocessedDataLines = preprocessor.preprocess(sizesDataLines)
 
-
-	### starts preprocessing ###
-
-	# make all column data upperCase (exceptions are the url and size columns), and write them to file
-	upperDataLines = sizes.doUpperCase()
-	io.WriteSizesHeader(upperOutFileName)
-	io.WriteFile(upperOutFileName, upperDataLines, 'a')
-
-	# create new Sizes object using the upperCase sizes dataLines
-	upperSizes = Sizes(upperDataLines)
-
-	#change brands' URLs (from sizes source url to the brand url), and write them to file
-	changedURLsDataLines = upperSizes.changeURLs()
-	io.WriteSizesHeader(changedUrlsOutFileName)
-	io.WriteFile(changedUrlsOutFileName, changedURLsDataLines, 'a')
-
-	# create new Sizes object using the changedUrls sizes dataLines
-	changedUrlsSizes = Sizes(changedURLsDataLines)
-
-	# merge synonymous sizeTypes, and write them to file
-	mergedSynonymousSizeTypesLines = changedUrlsSizes.mergeSynonymousSizeTypes()
-	io.WriteSizesHeader(mergedOutFileName)
-	io.WriteFile(mergedOutFileName, mergedSynonymousSizeTypesLines, 'a')
-
-	# create new Sizes object using the merged sizes dataLines
-	mergedSizes = Sizes(mergedSynonymousSizeTypesLines)
-
-	# get fixed lines as list of string datalines, and write them to file
-	fixedLines = mergedSizes.getFixedLines()
 	io.WriteSizesHeader(preprocessOutFile)
-	io.WriteFile(preprocessOutFile, fixedLines, 'a')
+	io.WriteFile(preprocessOutFile, preprocessedDataLines, 'a')
 
-	### ends preprocessing ###
+	sizesDataset = SizesDataset( preprocessedDataLines )
 
+	projections = sizesDataset.getSizeTypesProjections()
+	sizeCatalog = sizesDataset.constructSizeCatalog(projections)
 
-#	# create new Sizes object using the fixed sizes dataLines
-#	fixedSizes = Sizes(fixedLines)	
-#
-#	# get the size type projections for every size catalog entry
-#	sizeTypesProjections = fixedSizes.getSizeTypesProjections()
-#
-#	# get the size catalog as list of string datalines, and write it to file
-#	sizeCatalog = fixedSizes.constructSizeCatalog(sizeTypesProjections)
-#	io.WriteSizeCatalogHeader(sizeCatalogFile)
-#	io.WriteFile(sizeCatalogFile, sizeCatalog, 'a')
-#
-#	# generate virtual people, and write them to file
-#	#generator = Generator(preprocessOutFile)
-#	#generator.GeneratePeople(10, outPeopleFile)
-#
-#	# create a dbHelper object, connect to database, and construct the db schema
-#	dbHelper = DBHelper("betaDB", preprocessOutFile, sizeCatalogFile)
-#	dbHelper.constructDbSchema()
-#	
-#	print 'all ok'
+	io.WriteSizeCatalogHeader(sizeCatalogFile)
+	io.WriteFile(sizeCatalogFile, sizeCatalog, 'a')
+
+	# create a dbHelper object, connect to database, and construct the db schema
+	dbHelper = DBHelper("betaDB2", preprocessOutFile, sizeCatalogFile)
+	dbHelper.constructDbSchema()
+	
+	print 'all ok'
 
 
 if __name__ == "__main__":

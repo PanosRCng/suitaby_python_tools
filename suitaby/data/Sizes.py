@@ -1,7 +1,14 @@
+#
+#
+#	!!!  outdated  !!!
+#
+
+
 try:
 	from FormatChecker import FormatChecker
+	from ClotheCategory import ClotheCategory
 except ImportError:
-	print '(!) module do not found'	
+	print 'Sizes -- (!) module do not found'	
 	exit()
 
 
@@ -17,63 +24,6 @@ class Sizes():
 
 	#constructor 
 	def __init__(self, dataLines):
-
-		# inverted index of clothe category to parent categories list
-		self.clotheCategoriesInvertedIndex = { 
-						"POLOS" : ["T-SHIRTS"],
-						"RUGBYS" : ["T-SHIRTS"],
-						"TOPS" : ["T-SHIRTS"],
-						"POLO" : ["T-SHIRTS"],
-						"SWEATSHIRTS" : ["T-SHIRTS"],
-						"T-SHIRTS" : ["T-SHIRTS"],
-						"RUGBY" : ["T-SHIRTS"],
-						"MEN'S TOPS" : ["T-SHIRTS", "JACKETS & COATS", "SHIRTS", "KNITWEAR"],
-						"SHEP SHIRTS" : ["T-SHIRTS"],
-						"TEES" : ["T-SHIRTS"],
-						"BUSINESS SUITS" : ["SUITS"],
-						"SUITS TROUSERS" : ["SUITS"],
-						"SUIT" : ["SUITS"],
-						"SUITS" : ["SUITS"],
-						"TAILORED JACKETS"  : ["SUITS"],
-						"COATS" : ["JACKETS & COATS"],
-						"OUTERWEAR" : ["JACKETS & COATS"],
-						"BLAZERS" : ["JACKETS & COATS"],
-						"JACKETS" : ["JACKETS & COATS"],
-						"SPORTSWEAR" : ["SPORTSWEAR"],
-						"ELASTICATED WAIST TROUSERS" : ["SPORTSWEAR"],
-						"SPORT SHIRTS" : ["SPORTSWEAR"],
-						"SWIMWEAR" : ["SPORTSWEAR"],
-						"TRACK PANTS" : ["SPORTSWEAR"],
-						"SHIRTS" : ["SHIRTS"],
-						"BUSINESS SHIRTS" : ["SHIRTS"],
-						"CASUAL" : ["SHIRTS"],
-						"SHIRT" : ["SHIRTS"],
-						"DRESS SHIRTS" : ["SHIRTS"],
-						"APPAREL (POLO)" : ["APPAREL"],
-						"APPAREL" : ["APPAREL"],
-						"MERINO" : ["KNITWEAR"],
-						"CARDIGANS" : ["KNITWEAR"],
-						"PULLOVERS" : ["KNITWEAR"],
-						"JUMPERS" : ["KNITWEAR"],
-						"KNITWEAR" : ["KNITWEAR"],
-						"FLEECE" : ["KNITWEAR"],
-						"SWEATERS" : ["KNITWEAR"],
-						"BOTTOMS" : ["TROUSERS"],
-						"SHORTS" : ["TROUSERS"],
-						"MEN'S SHORTS" : ["TROUSERS"],
-						"MEN'S BOTTOMS" : ["TROUSERS"],
-						"PANTS" : ["TROUSERS"],
-						"MEN'S PANTS" : ["TROUSERS"],
-						"CHINOS" : ["TROUSERS"],
-						"DENIM" : ["TROUSERS"],
-						"JEANS" : ["TROUSERS"],
-						"TROUSERS" : ["TROUSERS"],
-						"BELTS" : ["ACCESSORIES"],
-						"SOCKS" : ["ACCESSORIES"],
-						"UNDERWEAR" : ["UNDERWEAR"],
-						"BOXERS" : ["UNDERWEAR"],
-						"SHOES" : ["SHOES"]
-					      }
 
 		self.sizesDataLines = []
 
@@ -94,7 +44,7 @@ class Sizes():
 		clotheCategories = self.splitClotheCategory(column)
 
 		for clotheCategory in clotheCategories:
-			for parent in self.clotheCategoriesInvertedIndex[clotheCategory]:
+			for parent in ClotheCategory.invertedIndex[clotheCategory]:
 				parent_clothe_categories.append(parent)
 
 		return set(parent_clothe_categories)
@@ -105,8 +55,8 @@ class Sizes():
 
 		parent_clothe_categories = []
 
-		for clotheCategory in self.clotheCategoriesInvertedIndex.keys():
-			for parent in self.clotheCategoriesInvertedIndex[clotheCategory]:
+		for clotheCategory in ClotheCategory.invertedIndex.keys():
+			for parent in ClotheCategory.invertedIndex[clotheCategory]:
 				parent_clothe_categories.append(parent)
 
 		return set(parent_clothe_categories)
@@ -122,7 +72,7 @@ class Sizes():
 			return child_clothe_categories
 
 		for clotheCategory in self.getClotheCategoriesList():
-			if parent_clothe_category in  self.clotheCategoriesInvertedIndex[clotheCategory]:
+			if parent_clothe_category in  ClotheCategory.invertedIndex[clotheCategory]:
 				child_clothe_categories.append( clotheCategory )
 
 		return child_clothe_categories
@@ -191,7 +141,7 @@ class Sizes():
 
 			clothe_category = part.strip()
 
-			if clothe_category not in self.clotheCategoriesInvertedIndex.keys():
+			if clothe_category not in ClotheCategory.invertedIndex.keys():
 
 				ps = clothe_category.split(" ")
 
@@ -199,7 +149,7 @@ class Sizes():
 				uknown = []
 
 				for p in ps:
-					if p in self.clotheCategoriesInvertedIndex.keys():
+					if p in ClotheCategory.invertedIndex.keys():
 						p_exists = True
 						clotheCategoriesList.append(p)
 					else:

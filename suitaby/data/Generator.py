@@ -1,3 +1,9 @@
+#
+#
+#	!!!  outdated  !!!
+#
+
+
 try:
 	import sys
 	import random

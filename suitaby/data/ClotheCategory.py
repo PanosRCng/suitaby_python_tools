@@ -28,7 +28,8 @@ class ClotheCategory:
 	
 	clotheCategories = [    'POLOS', 
 				'SPORT SHIRTS',
-				'SUITS', 'COATS',
+				'SUITS', 
+				'COATS',
 				'POLO',
 				'TAILORED JACKETS',
 				'SPORTSWEAR',

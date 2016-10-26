@@ -23,6 +23,7 @@ class SizeType:
 			'CHEST',
 			'THIGH',
 			'SLEEVE LENGTH',
+			'SLEEVE LENGTH_LONG',
 			'HALF CHEST',
 			'FOOT LENGTH',
 			'HIPS',

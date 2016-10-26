@@ -124,7 +124,7 @@ class DBHelper():
 
 		label_ids = {}
 
-		labels = self.sizesDataset.getLabels( )
+		labels = self.sizesDataset.labels( )
 
 		for label in labels:
 

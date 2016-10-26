@@ -35,8 +35,7 @@ class Brand:
 			    "JOHN SMEDLEY" : "http://www.johnsmedley.com/",
 			    "ITALIAN CLASSICS" : "http://www.highandmighty.co.uk/",
 			    "D555" : "http://www.dukeclothing.com/",
-			    "POLO" : "-",
-			    "BOSS" : "-",
+			    "HILFIGER DENIM" : "http://eu.tommy.com/Hilfiger-Denim/labeldenim,default,sc.html",
 			    "MANGO" : "www.mango.com" }
 
 	

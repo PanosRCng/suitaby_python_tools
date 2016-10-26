@@ -127,7 +127,7 @@ def getFixedSizesLines(dataLines):
 
 	sizesDataset = SizesDataset(dataLines)
 
-	brands = sizesDataset.getBrands()
+	brands = sizesDataset.brands()
 	catSizeTypes = sizesDataset.getSizeTypes()
 	catSizeCategories = sizesDataset.getSizeCats()
 

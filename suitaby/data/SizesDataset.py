@@ -1,5 +1,5 @@
 try:
-	import formatChecker
+	from Dataset import Dataset
 	from ClotheCategory import ClotheCategory
 except ImportError:
 	print 'SizesDataset -- (!) module do not found'	
@@ -12,39 +12,11 @@ except ImportError:
 # 
 #
 
-class SizesDataset():
+class SizesDataset(Dataset, object):
 
 	#constructor 
 	def __init__(self, dataLines):
-
-		self.dataLines = []
-
-		if not formatChecker.checkSizeFormat(dataLines):
-			print formatChecker.errorMessage
-		else:
-			self.dataLines = dataLines
-
-
-
-	# returns a list with the unique brands in this dataset
-	def getBrands(self):
-
-		# create an empty list to keep the brands
-		brands = []
-
-		# for every line
-		for line in self.dataLines:
-
-			# split line to columns using 'tab' 
-			columns = line.split('\t')
-
-			# save brand to brands list
-			brands.append(columns[3])
-
-		# get the unique brands list
-		uniqueBrands = set(brands)
-
-		return uniqueBrands
+		super(SizesDataset, self).__init__(dataLines)
 
 
 	# returns a dictionary with the urls for the brands in the brands list
@@ -72,55 +44,13 @@ class SizesDataset():
 		return urls
 
 
-	# returns a list with the unique labels
-	def getLabels(self):
-
-		# create an empty list to keep the labels
-		labels = []
-
-		# for every line
-		for line in self.dataLines:
-
-			# split line to columns using 'tab' 
-			columns = line.split('\t')
-
-			# save label to labels list
-			labels.append(columns[2])
-
-		# get the unique labels list
-		uniqueLabels = set(labels)
-
-		return uniqueLabels
-
-
-	# returns a list with the clothe categories
-	def getClotheCategories(self):
-
-		# create an empty list to keep the clothe categories
-		clothes = []
-
-		# for every line
-		for line in self.dataLines:
-
-			# split line to columns using 'tab' 
-			columns = line.split('\t')
-
-			# save clothe category to clothes list
-			clothes.append(columns[5])
-
-		uniqueClothes = set(clothes)
-
-		return uniqueClothes
-
-
-
 	# get the unique size types for every clothe category
 	def getSizeTypes(self):
 
 		# create an empty dictionary to keep the clothe_category stats
 		clotheCatStats = {}
 
-		clotheCats = self.getClotheCategories()
+		clotheCats = self.clothe_categories()
 
 		# create an empty dictionary to keep the size_type stats
 		clotheSizeTypeStats = {}
@@ -152,7 +82,7 @@ class SizesDataset():
 		# create an empty dictionary to keep the clothe_category stats
 		clotheCatStats = {}
 
-		clotheCats = self.getClotheCategories()
+		clotheCats = self.clothe_categories()
 
 		# create an empty dictionary to keep the size_category stats
 		clotheSizeCatsStats = {}
@@ -266,47 +196,6 @@ class SizesDataset():
 			sizeCatalog.append(dataLine)
 
 		return sizeCatalog
-
-
-	# get the clothe categories
-	def getClotheCategories(self):
-
-		# create an empty list to keep the clothe categories
-		clothes = []
-
-		# for every line
-		for line in self.dataLines:
-
-			# split line to columns using 'tab' 
-			columns = line.split('\t')
-
-			# save clothe category to clothes list
-			clothes.append(columns[5])
-
-		uniqueClothes = set(clothes)
-
-		return uniqueClothes
-
-
-	# get the unique labels
-	def getLabels(self):
-
-		# create an empty list to keep the labels
-		labels = []
-
-		# for every line
-		for line in self.dataLines:
-
-			# split line to columns using 'tab' 
-			columns = line.split('\t')
-
-			# save label to labels list
-			labels.append(columns[2])
-
-		# get the unique labels list
-		uniqueLabels = set(labels)
-
-		return uniqueLabels
 
 
 	# returns a clothe categories list from the clothe category column

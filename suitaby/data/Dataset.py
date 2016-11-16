@@ -14,6 +14,15 @@ except ImportError:
 
 class Dataset():
 
+	columns = [
+		   'size_type',
+		   'size',
+		   'label',
+          	   'brand',
+		   'url',
+		   'clothe_category',
+		   'size_category'
+		   ]
 
 	#constructor 
 	def __init__(self, dataLines):
@@ -79,6 +88,33 @@ class Dataset():
 
 	# returns a list with the unique size_categories in this dataset
 	def size_categories(self):
-		return self.__getEntries(6)			
+		return self.__getEntries(6)
+
+
+	# returns a dictionary with the columns of the given line
+	def getColumns(self, line):
+
+		columns = {}
+
+		parts = line.split('\t')
+
+		for i in range(len(self.columns)):
+			columns[ self.columns[i] ] = parts[i]
+
+		return columns
+
+
+	# returns a line from the given columns
+	def getLine(self, columns):
+
+		line = ""
+
+		for i in range(len(self.columns)):
+			line += columns[ self.columns[i] ] + '\t'
+
+		return line[:-1]
+	
+
+		
 
 

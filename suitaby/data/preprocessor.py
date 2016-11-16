@@ -1,7 +1,9 @@
 try:
 	import formatChecker
+	from Dataset import Dataset
 	from SizesDataset import SizesDataset
 	from Brand import Brand
+	from SizeType import SizeType
 except ImportError:
 	print 'preprocessor -- (!) module do not found'	
 	exit()
@@ -24,7 +26,8 @@ def preprocess(dataLines):
 
 	upperCaseLines = doUpperCase(dataLines)
 	changedUrlsLines = changeURLs(upperCaseLines)
-	mergedDataLines = mergeSynonymousSizeTypes(changedUrlsLines)
+	fixedSizeTypesLines = fixSizeTypes(changedUrlsLines)
+	mergedDataLines = mergeSynonymousSizeTypes(fixedSizeTypesLines)
 	fixedSizesLines = getFixedSizesLines(mergedDataLines)
 
 	return fixedSizesLines
@@ -37,23 +40,19 @@ def doUpperCase(dataLines):
 		
 	upperCaseLines = []
 
-	for line in dataLines:
+	dataset = Dataset(dataLines)
 
-		# split line to columns using 'tab' 
-		columns = line.split('\t')
+	for line in dataset.dataLines:
 
-		size_type = columns[0]
-		size = columns[1]
-		label = columns[2]
-		brand = columns[3]
-		url = columns[4]
-		clothe_category = columns[5]
-		parts = columns[6].split('\n')
-		size_category = parts[0] 
+		columns = dataset.getColumns(line)
 
-		upperLine = size_type.upper() + '\t' + size + '\t' + label.upper() + '\t' + brand.upper() + '\t' + url + '\t' + clothe_category.upper() + '\t' + size_category.upper()
+		columns['size_type'] = columns['size_type'].upper()
+		columns['label'] = columns['label'].upper()
+		columns['brand'] = columns['brand'].upper()
+		columns['clothe_category'] = columns['clothe_category'].upper()
+		columns['size_category'] = columns['size_category'].upper()
 
-		upperCaseLines.append(upperLine)
+		upperCaseLines.append( dataset.getLine(columns) )
 
 	return upperCaseLines
 
@@ -63,27 +62,32 @@ def changeURLs(dataLines):
 
 	changedUrlsLines = []
 
-	for line in dataLines:
+	dataset = Dataset(dataLines)
 
-		# split line to columns using 'tab' 
-		columns = line.split('\t')
+	for line in dataset.dataLines:
 
-		size_type = columns[0]
-		size = columns[1]
-		label = columns[2]
-		brand = columns[3]
-		url = columns[4]
-		clothe_category = columns[5]
-		parts = columns[6].split('\n')
-		size_category = parts[0] 
-
-		url = Brand.brandsUrls[ brand ]
-
-		changedUrlLine = size_type + '\t' + size + '\t' + label + '\t' + brand + '\t' + url + '\t' + clothe_category + '\t' + size_category
-
-		changedUrlsLines.append(changedUrlLine)
+		columns = dataset.getColumns(line)
+		columns['url'] = Brand.brandsUrls[ columns['brand'] ]
+		changedUrlsLines.append( dataset.getLine(columns) )
 
 	return changedUrlsLines
+
+
+# fix sizeTypes names
+# { INSIDE LEG -> INSIDE_LEG, BACK LENGTH -> BACK_LENGTH, etc. }
+def fixSizeTypes(dataLines):
+		
+	fixedDataLines = []
+
+	dataset = Dataset(dataLines)
+
+	for line in dataset.dataLines:
+
+		columns = dataset.getColumns(line)
+		columns['size_type'] = columns['size_type'].replace(" ", "_")
+		fixedDataLines.append( dataset.getLine(columns) )
+
+	return fixedDataLines
 
 
 # merge synonymous sizeTypes
@@ -92,30 +96,16 @@ def mergeSynonymousSizeTypes(dataLines):
 		
 	mergedDataLines = []
 
-	for line in dataLines:
+	dataset = Dataset(dataLines)
 
-		# split line to columns using 'tab' 
-		columns = line.split('\t')
+	for line in dataset.dataLines:
 
-		size_type = columns[0]
-		size = columns[1]
-		label = columns[2]
-		brand = columns[3]
-		url = columns[4]
-		clothe_category = columns[5]
-		parts = columns[6].split('\n')
-		size_category = parts[0] 
+		columns = dataset.getColumns(line)
 
-		if (size_type == "HIP"):
-			size_type = "HIPS"
-		elif (size_type == "SLEEVE"):
-			size_type = "SLEEVE LENGTH"
-		elif (size_type == "BACK"):
-			size_type = "BACK LENGTH"
+		if columns['size_type'] in SizeType.mergedSizeTypes:
+			columns['size_type'] = SizeType.mergedSizeTypes[ columns['size_type'] ]
 
-		mergedLine = size_type + '\t' + size + '\t' + label + '\t' + brand + '\t' + url + '\t' + clothe_category + '\t' + size_category
-
-		mergedDataLines.append(mergedLine)
+		mergedDataLines.append( dataset.getLine(columns) )
 
 	return mergedDataLines
 

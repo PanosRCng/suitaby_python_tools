@@ -377,8 +377,6 @@ class DBHelper():
 
 		for sizeType in sizeTypesList:
 
-			sizeType = sizeType.replace(" ", "_")
-
 			query += sizeType + "_point,"
 
 		query = query[:-1]
@@ -710,10 +708,8 @@ class DBHelper():
 					value = str(entriesDict[key]) + ', ' + left_limit + ', ' + right_limit
 
 					values.append(value)
-
-			tableName = sizeType.replace(" ", "_")
 		
-			self.insertIntoTable(tableName, values)
+			self.insertIntoTable(sizeType, values)
 
 
 	# insert entries into sizeType table
@@ -754,9 +750,7 @@ class DBHelper():
 
 		for sizeType in SizeType.sizeTypes:
 
-			tableName = sizeType.replace(" ", "_")
-
-			self.createSizeTypeTable(tableName)
+			self.createSizeTypeTable(sizeType)
 
 
 	def createSizeTypeTable(self, tableName):
@@ -794,10 +788,7 @@ class DBHelper():
 	def createSizeTypesIndexes(self, columnName):
 
 		for sizeType in SizeType.sizeTypes:
-
-			tableName = sizeType.replace(" ", "_")
-
-			self.createIndex(tableName, columnName)
+			self.createIndex(sizeType, columnName)
 
 
 	# creates an index for a table to a specific column
@@ -816,10 +807,7 @@ class DBHelper():
 	def dropSizeTypesIndexes(self, columnName):
 
 		for sizeType in SizeType.sizeTypes:
-
-			tableName = sizeType.replace(" ", "_")
-
-			self.dropIndex(tableName, columnName)
+			self.dropIndex(sizeType, columnName)
 
 
 	# drops an index for a table to a specific column
@@ -924,8 +912,6 @@ class DBHelper():
 			 "user_id int(10) unsigned not null unique, ")
 
 		for sizeType in SizeType.sizeTypes:
-
-			sizeType = sizeType.replace(" ", "_")
 			sizeType = sizeType.lower()
 
 			query += sizeType + " float, "
@@ -943,8 +929,6 @@ class DBHelper():
 			 "user_id int(10) unsigned not null unique, ")
 
 		for sizeType in SizeType.sizeTypes:
-
-			sizeType = sizeType.replace(" ", "_")
 			sizeType = sizeType.lower()
 
 			query += sizeType + " float, "
@@ -962,8 +946,6 @@ class DBHelper():
 			 "user_id int(10) unsigned not null unique, ")
 
 		for sizeType in SizeType.sizeTypes:
-
-			sizeType = sizeType.replace(" ", "_")
 			sizeType = sizeType.lower()
 
 			query += sizeType + " float, "

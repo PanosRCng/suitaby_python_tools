@@ -13,19 +13,29 @@
 class SizeType:
 
 	sizeTypes = [
-			'LOWER WAIST',
-			'INSIDE LEG',
+			'LOWER_WAIST',
+			'INSIDE_LEG',
 			'WAIST',
-			'BACK LENGTH',
-			'FRONT RISE',
-			'SHOULDER WIDTH',
+			'BACK_LENGTH',
+			'FRONT_RISE',
+			'SHOULDER_WIDTH',
 			'HEIGHT',
 			'CHEST',
 			'THIGH',
-			'SLEEVE LENGTH',
-			'SLEEVE LENGTH_LONG',
-			'HALF CHEST',
-			'FOOT LENGTH',
+			'SLEEVE_LENGTH',
+			'SLEEVE_LENGTH_LONG',
+			'HALF_CHEST',
+			'FOOT_LENGTH',
 			'HIPS',
 			'NECK'
 		     ]
+
+
+	mergedSizeTypes = {
+				'HIP' : 'HIPS',
+				'SLEEVE' : 'SLEEVE_LENGTH',
+				'BACK' : 'BACK_LENGTH'
+			  }	
+
+
+

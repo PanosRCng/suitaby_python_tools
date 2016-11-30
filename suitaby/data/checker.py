@@ -1,10 +1,13 @@
+#
+# checker module
+#
+#
+# - checks if a list of dataLines follows a specific format
+#
+# - checks if a list of dataLines is consistent with Brand.py, SizeType.py
+#   or there new things that must be added  
+#
 
-#
-# consistencyChecker module
-#
-# checks if a list of dataLines is consistent with Brand.py, SizeType.py
-# or there new things that must be added  
-#
 
 
 try:
@@ -15,12 +18,32 @@ except ImportError:
 	exit()
 
 
+
+formatErrorMessage = '(!) please format these lines, and try again \n'
 newcomersWarningMessage = '(!) new things: '
 extinctWarningMessage = '(!) extinct things: '
 
 
+# checks if a list of dataLines follows a specific format
+def formatCheck(dataLines, num_of_columns):
+
+	ok = True
+
+	for line in dataLines:
+
+		# split line to columns using 'tab' 
+		columns = line.split('\t')
+		
+		if len(columns) != num_of_columns:
+			print 'please fix this line: ' + line + '  (!) number of columns:' + str(len(columns))
+			ok = False
+
+	return ok
+
+
+
 # checks data consistency in a dataset
-def check(dataset):
+def checkDataset(dataset):
 
 	ok = True
 
@@ -60,11 +83,6 @@ def checkSizeTypes(dataset):
 		print newcomersWarningMessage + 'sizeTypes'
 		print newcomers
 		print '\n\n'
-
-
-
-
-
 
 
 

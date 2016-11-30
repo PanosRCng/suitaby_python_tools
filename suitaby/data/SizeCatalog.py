@@ -1,12 +1,12 @@
 try:
-	import formatChecker
+	import checker
 except ImportError:
 	print 'SizeCatalog -- (!) module do not found'	
 	exit()
 
 
 #
-# SizeCatalog module
+# SizeCatalog class
 #
 # helps to extract specific stats about a size catalog dataset
 #
@@ -15,13 +15,40 @@ except ImportError:
 class SizeCatalog():
 
 
+	columns = [
+		   'clothe_category',
+		   'label',
+		   'size_category',
+          	   'size_type_projections',
+		   'brand',
+		   'url',
+		   'gender'
+		   ]
+
 	#constructor 
 	def __init__(self, dataLines):
 
 		self.dataLines = []
 
-		if not formatChecker.checkSizeCatalogFormat(dataLines):
-			print '(!) please format these lines, and try again \n'		
+		if not checker.formatCheck(dataLines, len(self.columns)):
+			print checker.formatErrorMessage	
 
 		else:
 			self.dataLines = dataLines
+
+
+
+	# returns a dictionary with the columns of the given line
+	def getColumns(self, line):
+
+		columns = {}
+
+		parts = line.split('\t')
+
+		for i in range(len(self.columns)):
+			columns[ self.columns[i] ] = parts[i]
+
+		return columns
+
+
+

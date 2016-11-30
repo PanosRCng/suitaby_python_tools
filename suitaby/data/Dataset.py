@@ -1,15 +1,17 @@
-try:
-	import formatChecker
-except ImportError:
-	print 'Dataset -- (!) module do not found'	
-	exit()
-
-
 #
 # Dataset class
 #
 # 
 #
+
+
+
+try:
+	import checker
+except ImportError:
+	print 'Dataset -- (!) module do not found'	
+	exit()
+
 
 
 class Dataset():
@@ -21,7 +23,8 @@ class Dataset():
           	   'brand',
 		   'url',
 		   'clothe_category',
-		   'size_category'
+		   'size_category',
+		   'gender'
 		   ]
 
 	#constructor 
@@ -29,8 +32,8 @@ class Dataset():
 
 		self.dataLines = []
 
-		if not formatChecker.checkSizeFormat(dataLines):
-			print formatChecker.errorMessage
+		if not checker.formatCheck(dataLines, len(self.columns)):
+			print checker.formatErrorMessage
 		else:
 			self.dataLines = dataLines
 
@@ -91,6 +94,11 @@ class Dataset():
 		return self.__getEntries(6)
 
 
+	# returns a list with the unique genders in this dataset
+	def genders(self):
+		return self.__getEntries(7)
+
+
 	# returns a dictionary with the columns of the given line
 	def getColumns(self, line):
 
@@ -114,6 +122,22 @@ class Dataset():
 
 		return line[:-1]
 	
+
+	# checks if two lines have the same column values of the given columns_list
+	def matchLines(self, line_i, line_j, columns_list = None):
+
+		if columns_list is None:
+			columns_list = self.columns
+
+		columns_i = self.getColumns(line_i)
+		columns_j = self.getColumns(line_j)
+
+		for column in columns_list:
+			if columns_i[column] != columns_j[column]:
+				return False
+
+		return True
+
 
 		
 

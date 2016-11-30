@@ -631,29 +631,18 @@ class DBHelper():
 		entriesDict = {}
 
 		for line in self.sizeCatalog.dataLines:
+			columns = self.sizeCatalog.getColumns(line)
 
-			columns = line.split("\t")
-
-			clothe_category_column = columns[0]
-			label = columns[1]
-			size_category = columns[2]
-			size_type_projection = columns[3]
-			brand = columns[4]
-			parts = columns[5].split("\n")
-			url = parts[0]
-		
-			value = '"' + size_type_projection + '", "' + size_category + '", ' + str(brand_ids[brand]) + ', ' + str(label_ids[label])
+			value = '"' + columns['size_type_projections'] + '", "' + columns['size_category'] + '", ' + str(brand_ids[columns['brand']]) + ', ' + str(label_ids[columns['label']])
 
 			entry_id = self.insertIntoSizeCatalogEntryTable(value)
 
-			key = clothe_category_column + " : " + label + " : " + size_category + " : " + brand + " : " + url 
+			key = columns['clothe_category'] + " : " + columns['label'] + " : " + columns['size_category'] + " : " + columns['brand'] + " : " + columns['url'] + " : " + columns['gender']
 
 			entriesDict[key] = entry_id
 
 			
-
-			for clotheCategory in self.sizesDataset.splitClotheCategory(clothe_category_column):
-
+			for clotheCategory in self.sizesDataset.splitClotheCategory(columns['clothe_category']):
 				self.insertIntoSizeCatalogEntryToClotheCategoryTable(entry_id, clotheCategories_ids[clotheCategory])
 
 		return entriesDict
@@ -686,27 +675,17 @@ class DBHelper():
 			values = []
 
 			for line in self.sizesDataset.dataLines:
+				columns = self.sizesDataset.getColumns(line)
 
-				columns = line.split('\t')
+				if columns['size_type'] == sizeType:
 
-				if columns[0] == sizeType:
-
-					limits = columns[1].split('-')
-					sc = columns[6].split('\n')
-
+					limits = columns['size'].split('-')
 					left_limit = limits[0]
 					right_limit = limits[1]
-					label = columns[2]
-					brand = columns[3]
-					url = columns[4]
-					clothe_category = columns[5]
-					size_category = sc[0]
 
+					key = columns['clothe_category'] + " : " + columns['label'] + " : " + columns['size_category'] + " : " + columns['brand'] + " : " + columns['url'] + " : " + columns['gender'] 
 
-					key = clothe_category + " : " + label + " : " + size_category + " : " + brand + " : " + url  
-
-					value = str(entriesDict[key]) + ', ' + left_limit + ', ' + right_limit
-
+					value = str(entriesDict[key]) + ', ' + left_limit + ', ' + right_limit + ', "' + columns['gender'] + '"'
 					values.append(value)
 		
 			self.insertIntoTable(sizeType, values)
@@ -720,7 +699,6 @@ class DBHelper():
 		for value in values:
 			
 			query = self.getSizeTypeInsertionQuery(tableName, value)
-		
 			cur.execute(query)
 
 			for row in cur.fetchall():
@@ -740,7 +718,7 @@ class DBHelper():
 	# returns a query for the insertion of a sizeType table
 	def getSizeTypeInsertionQuery(self, tableName, value):
 
-		query = 'insert into ' + tableName + ' (size_catalog_entry_id, left_limit, right_limit) values('  + value +  ')'
+		query = 'insert into ' + tableName + ' (size_catalog_entry_id, left_limit, right_limit, gender) values('  + value +  ')'
 
 		return query
 
@@ -1035,6 +1013,7 @@ class DBHelper():
 			 "size_catalog_entry_id int(10) unsigned not null,"
 			 "left_limit float not null,"
 			 "right_limit float not null,"
+			 "gender char(1) not null,"
 			 "foreign key (size_catalog_entry_id) references size_catalog_entry(id)"
 			 ")")
 

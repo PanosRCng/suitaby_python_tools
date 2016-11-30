@@ -1,6 +1,5 @@
 try:
 	import os
-	from Dataset import Dataset
 except ImportError:
 	print 'io -- (!) module do not found'	
 	exit()
@@ -57,24 +56,14 @@ def WriteFile(filename, lines, flag):
 	f.close
 
 
-# write the sizes catalog header
-def WriteSizeCatalogHeader(filename):
-
-	fullname = os.path.join('./data', filename)
-
-	f = open(fullname, 'w')
-	f.write('#clothe_category	label	size_category	size_type_projections	brand	url\n'+'#\n')
-	f.close
-
-
-# write the sizes header
-def WriteSizesHeader(filename):
+# writes a header for the list of the given columns
+def WriteHeader(filename, columns):
 
 	fullname = os.path.join('./data', filename)
 
 	line = '#'
 
-	for column in Dataset.columns:
+	for column in columns:
 		line += column + '\t'
 
 	line = line[:-1]

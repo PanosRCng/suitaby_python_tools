@@ -1,5 +1,5 @@
 try:
-	import formatChecker
+	import checker
 	from Dataset import Dataset
 	from SizesDataset import SizesDataset
 	from Brand import Brand
@@ -21,8 +21,8 @@ except ImportError:
 # returns a list of lines as strings
 def preprocess(dataLines):
 
-	if not formatChecker.checkSizeFormat(dataLines):
-		print formatChecker.errorMessage
+	if not checker.formatCheck(dataLines, len(Dataset.columns)):
+		print checker.formatErrorMessage
 
 	upperCaseLines = doUpperCase(dataLines)
 	changedUrlsLines = changeURLs(upperCaseLines)
@@ -51,6 +51,7 @@ def doUpperCase(dataLines):
 		columns['brand'] = columns['brand'].upper()
 		columns['clothe_category'] = columns['clothe_category'].upper()
 		columns['size_category'] = columns['size_category'].upper()
+		columns['gender'] = columns['gender'].upper()
 
 		upperCaseLines.append( dataset.getLine(columns) )
 
@@ -148,12 +149,9 @@ def fixSizes(brand, clotheCat, sizeCat, sizeType, dataLines):
 
 	for line in dataLines:
 
-		columns = line.split('\t')
+		columns = line.split('\t')	
 
-		# just split the next line character
-		terms = columns[6].split('\n')		
-
-		if (brand == columns[3]) and (clotheCat == columns[5]) and (sizeCat == terms[0]) and (sizeType == columns[0]):
+		if (brand == columns[3]) and (clotheCat == columns[5]) and (sizeCat == columns[6]) and (sizeType == columns[0]):
 
 			# fix XX,XX to XX.XX
 			columns[1] = columns[1].replace(",", ".")
@@ -167,6 +165,7 @@ def fixSizes(brand, clotheCat, sizeCat, sizeType, dataLines):
 			labels[str(float(tt[0]))] = columns[2]
 
 			url = columns[4]
+			gender = columns[7]
 
 			linesCounter+=1
 
@@ -202,7 +201,7 @@ def fixSizes(brand, clotheCat, sizeCat, sizeType, dataLines):
 				tt = outSize.split('-')
 
 				outLines.append(sizeType + '\t' + outSize + '\t' + labels[str(float(tt[0]))] + '\t' + brand +
-								 '\t' + url + '\t' + clotheCat + '\t' + sizeCat)
+								 '\t' + url + '\t' + clotheCat + '\t' + sizeCat + '\t' + gender)
 
 		elif len(set(sizes)) == 1:
 
@@ -211,7 +210,7 @@ def fixSizes(brand, clotheCat, sizeCat, sizeType, dataLines):
 				outSize = sizes[0] + '-' + sizes[0]
 
 				outLines.append(sizeType + '\t' + outSize + '\t' + label + '\t' + brand +
-							 '\t' + url + '\t' + clotheCat + '\t' + sizeCat)		
+							 '\t' + url + '\t' + clotheCat + '\t' + sizeCat + '\t' + gender)		
 		
 	return outLines
 

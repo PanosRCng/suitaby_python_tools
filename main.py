@@ -3,8 +3,9 @@ try:
 
 	from suitaby.data import io
 	from suitaby.data.Dataset import Dataset
-	from suitaby.data import consistencyChecker
+	from suitaby.data import checker
 	from suitaby.data import preprocessor
+	from suitaby.data.SizeCatalog import SizeCatalog
 	from suitaby.data.SizesDataset import SizesDataset
 
 	from suitaby.data.DBHelper import DBHelper
@@ -17,7 +18,7 @@ except ImportError:
 
 def main():
 
-	inSizesFile = "sizes.txt"
+	inSizesFile = "new_sizes.txt"
 	sizeCatalogFile = "producedData/sizeCatalog.txt"
 	preprocessOutFile = "producedData/preprocessedSizes.txt"
 
@@ -34,13 +35,13 @@ def main():
 
 	# do a consistency check
 	dataset = Dataset( sizesDataLines )
-	consistencyChecker.check(dataset)
+	checker.checkDataset(dataset)
 
 	# preprocess dataLines
 	preprocessedDataLines = preprocessor.preprocess(sizesDataLines)
 
 	# write processed dataLines to file
-	io.WriteSizesHeader(preprocessOutFile)
+	io.WriteHeader(preprocessOutFile, Dataset.columns)
 	io.WriteFile(preprocessOutFile, preprocessedDataLines, 'a')
 
 	# construct the size catalog
@@ -49,7 +50,7 @@ def main():
 	sizeCatalog = sizesDataset.constructSizeCatalog(projections)
 
 	# write the sizes catalog to file
-	io.WriteSizeCatalogHeader(sizeCatalogFile)
+	io.WriteHeader(sizeCatalogFile, SizeCatalog.columns)
 	io.WriteFile(sizeCatalogFile, sizeCatalog, 'a')
 
 	# create a dbHelper object, connect to database, and construct the db schema

@@ -30,15 +30,13 @@ class SizesDataset(Dataset, object):
 
 			# find the url for the brand in dataLines
 			for line in self.dataLines:
-
-				# split line to columns using 'tab' 
-				columns = line.split('\t')
+				columns = self.getColumns(line)
 
 				# find a line with the brand
-				if brand == columns[3]:
+				if brand == columns['brand']:
 
 					# get the url, and save it to dictionary
-					urls[brand] = columns[4]
+					urls[brand] = columns['url']
 					break
 
 		return urls
@@ -62,11 +60,11 @@ class SizesDataset(Dataset, object):
 
 			for line in self.dataLines:
 		
-				columns = line.split('\t')
+				columns = self.getColumns(line)
 
-				if clotheCat == columns[5].upper():
+				if clotheCat == columns['clothe_category'].upper():
 
-					sizeTypes.append( columns[0].upper() )
+					sizeTypes.append( columns['size_type'].upper() )
 
 			uniqueSizeTypes = set(sizeTypes)
 
@@ -94,14 +92,10 @@ class SizesDataset(Dataset, object):
 
 			for line in self.dataLines:
 		
-				columns = line.split('\t')
+				columns = self.getColumns(line)
 
-				if clotheCat == columns[5].upper():
-
-					# just split the next line character
-					terms = columns[6].split('\n')
-
-					sizeCats.append( terms[0].upper() )
+				if clotheCat == columns['clothe_category'].upper():
+					sizeCats.append( columns['size_category'].upper() )
 
 			uniqueSizeCats = set(sizeCats)
 
@@ -109,66 +103,48 @@ class SizesDataset(Dataset, object):
 
 		return clotheCatStats
 
-
 	# finds the size type projections for every size catalog entry
 	# returns a dictionary projections[size_catalog_entry] = "[sizeType_1, sizeType_2,]" 
 	def getSizeTypesProjections(self):
 		
 		groupDict = {}
 
-		# for every line
-		for line_i in self.dataLines:
-		
-			# split line to columns using 'tab' 
-			columns = line_i.split('\t')
+		key_columns = ['brand', 'clothe_category', 'label', 'size_category', 'url', 'gender']
 
-			size_type_i = columns[0]
-			size_i = columns[1]
-			label_i = columns[2]
-			brand_i = columns[3]
-			url_i = columns[4]
-			clothe_category_i = columns[5]
-			parts = columns[6].split('\n')
-			size_category_i = parts[0] 
-
-			# for every line again
+		# for every line, and for every line again
+		for line_i in self.dataLines:	
 			for line_j in self.dataLines:
-		
-				# split line to columns using 'tab' 
-				columns = line_j.split('\t')
 
-				size_type_j = columns[0]
-				size_j = columns[1]
-				label_j = columns[2]
-				brand_j = columns[3]
-				url_j = columns[4]
-				clothe_category_j = columns[5]
-				parts_j = columns[6].split('\n')
-				size_category_j = parts[0] 
+				if( self.matchLines( line_i, line_j, key_columns ) ):
 
-				if (brand_i == brand_j) and (url_i == url_j) and (clothe_category_i == clothe_category_j) and (size_category_i == size_category_j) and (label_i == label_j):
+					columns = self.getColumns(line_i)
 
-					key = brand_i + " : " + clothe_category_i + " : " + label_i + " : " + size_category_i + " : " + url_i
+					# construct a key
+					key = ""
+					for key_column in key_columns:
+						key += columns[key_column] + " : "
+					key = key[:-3]
 
+					# insert entry to dictionary
 					if key in groupDict:
-						groupDict[key].append(size_type_i)
+						groupDict[key].append( columns['size_type'] )
 					else:
 						sizeList = []
-						sizeList.append(size_type_i)
+						sizeList.append( columns['size_type'] )
 						groupDict[key] = sizeList
 
+
+		# construct the final dictionary
 		projections = {}
 
 		for key in list(groupDict.keys()):
 
 			sizeTypes =  list(set(groupDict[key]))
-
 			sizeTypes.sort()
 
 			sizeTypes_str = ""
-
 			for sizeType in sizeTypes:
-				sizeTypes_str += sizeType.replace(" ", "_") + ","
+				sizeTypes_str += sizeType + ","
 
 			projections[key] = sizeTypes_str[:-1]
 
@@ -188,10 +164,11 @@ class SizesDataset(Dataset, object):
 			label = columns[2]
 			size_category = columns[3]
 			url = columns[4]
+			gender = columns[5]
 
 			size_types_projection = sizeTypesProjections[key]
 			
-			dataLine = clothe_category + "\t" + label + "\t" + size_category + "\t" + size_types_projection + "\t" + brand + "\t" + url
+			dataLine = clothe_category + "\t" + label + "\t" + size_category + "\t" + size_types_projection + "\t" + brand + "\t" + url + "\t" + gender
 
 			sizeCatalog.append(dataLine)
 
